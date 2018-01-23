@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ConnectedApp xmlns="http://soap.sforce.com/2006/04/metadata">
+    <canvasConfig>
+        <accessMethod>Post</accessMethod>
+        <canvasUrl>https://yhgooglemail.herokuapp.com/canvas</canvasUrl>
+        <samlInitiationMethod>None</samlInitiationMethod>
+    </canvasConfig>
+    <contactEmail>yhou@salesforce.com</contactEmail>
+    <description>testing google app mail via salesforce</description>
+    <iconUrl>https://yhgooglemail.herokuapp.com/icon.png</iconUrl>
+    <infoUrl>https://yhgooglemail.herokuapp.com/welcome.jsp</infoUrl>
+    <label>yhGoogleMail</label>
+    <logoUrl>https://yhgooglemail.herokuapp.com/logo.png</logoUrl>
+    <oauthConfig>
+        <callbackUrl>https://yhgooglemail.herokuapp.com/callback</callbackUrl>
+        <consumerKey>3MVG9KI2HHAq33RwTgQ6wE6xzTNYGRG.Xn.uhaxpVuDB.mkZmCYvk0YWFTOOi5FXsHZgY8INx35dlLf3WfVIf</consumerKey>
+        <scopes>Basic</scopes>
+        <scopes>Chatter</scopes>
+    </oauthConfig>
+</ConnectedApp>

@@ -1,0 +1,781 @@
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"><fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Deal Access</value>
+        </caseValues>
+        <name>opportunity_access</name>
+        <startsWith>Vowel</startsWith>
+    </fields><fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Deal Access Level</value>
+        </caseValues>
+        <name>opportunity_access_level</name>
+        <startsWith>Vowel</startsWith>
+    </fields><fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Deal Alert</value>
+        </caseValues>
+        <name>opportunity_alert</name>
+        <startsWith>Vowel</startsWith>
+    </fields><fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Deal Amount</value>
+        </caseValues>
+        <name>opportunity_amount</name>
+        <startsWith>Vowel</startsWith>
+    </fields><fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Deal-based Briefcase</value>
+        </caseValues>
+        <name>opportunity_based_briefcase</name>
+        <startsWith>Vowel</startsWith>
+    </fields><fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Deal Close Date</value>
+        </caseValues>
+        <name>opportunity_close_date</name>
+        <startsWith>Vowel</startsWith>
+    </fields><fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Deal Closed</value>
+        </caseValues>
+        <name>opportunity_closed</name>
+        <startsWith>Vowel</startsWith>
+    </fields><fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Deal Competitor</value>
+        </caseValues>
+        <name>opportunity_competitor</name>
+        <startsWith>Vowel</startsWith>
+    </fields><fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Deal Competitor Report</value>
+        </caseValues>
+        <name>opportunity_competitor_report</name>
+        <startsWith>Vowel</startsWith>
+    </fields><fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Deal Contact</value>
+        </caseValues>
+        <name>opportunity_contact</name>
+        <startsWith>Vowel</startsWith>
+    </fields><fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Deal Contact Report</value>
+        </caseValues>
+        <name>opportunity_contact_report</name>
+        <startsWith>Vowel</startsWith>
+    </fields><fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Deal Contact Role</value>
+        </caseValues>
+        <caseValues>
+            <plural>true</plural>
+            <value>Deal Contact Roles</value>
+        </caseValues>
+        <name>opportunity_contact_role</name>
+        <startsWith>Vowel</startsWith>
+    </fields><fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Deal Creator</value>
+        </caseValues>
+        <name>opportunity_creator</name>
+        <startsWith>Vowel</startsWith>
+    </fields><fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Deal Currency</value>
+        </caseValues>
+        <name>opportunity_currency</name>
+        <startsWith>Vowel</startsWith>
+    </fields><fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Deal Description</value>
+        </caseValues>
+        <name>opportunity_description</name>
+        <startsWith>Vowel</startsWith>
+    </fields><fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Deal Detail Page</value>
+        </caseValues>
+        <name>opportunity_detail_page</name>
+        <startsWith>Vowel</startsWith>
+    </fields><fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Deal Division</value>
+        </caseValues>
+        <name>opportunity_division</name>
+        <startsWith>Vowel</startsWith>
+    </fields><fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Deal Edit</value>
+        </caseValues>
+        <name>opportunity_edit</name>
+        <startsWith>Vowel</startsWith>
+    </fields><fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Deal Field</value>
+        </caseValues>
+        <caseValues>
+            <plural>true</plural>
+            <value>Deal Fields</value>
+        </caseValues>
+        <name>opportunity_field</name>
+        <startsWith>Vowel</startsWith>
+    </fields><fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Deal Field History</value>
+        </caseValues>
+        <name>opportunity_field_history</name>
+        <startsWith>Vowel</startsWith>
+    </fields><fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Deal Field History ID</value>
+        </caseValues>
+        <name>opportunity_field_history_id</name>
+        <startsWith>Vowel</startsWith>
+    </fields><fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Deal Field History Report</value>
+        </caseValues>
+        <name>opportunity_field_history_report</name>
+        <startsWith>Vowel</startsWith>
+    </fields><fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Deal Forecast</value>
+        </caseValues>
+        <caseValues>
+            <plural>true</plural>
+            <value>Deal Forecasts</value>
+        </caseValues>
+        <name>opportunity_forecast</name>
+        <startsWith>Vowel</startsWith>
+    </fields><fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Deal Forecast Category</value>
+        </caseValues>
+        <name>opportunity_forecast_category</name>
+        <startsWith>Vowel</startsWith>
+    </fields><fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Deal Forecast Edit</value>
+        </caseValues>
+        <name>opportunity_forecast_edit</name>
+        <startsWith>Vowel</startsWith>
+    </fields><fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Deal History</value>
+        </caseValues>
+        <name>opportunity_history</name>
+        <startsWith>Vowel</startsWith>
+    </fields><fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Deal History ID</value>
+        </caseValues>
+        <name>opportunity_history_id</name>
+        <startsWith>Vowel</startsWith>
+    </fields><fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Deal History Information</value>
+        </caseValues>
+        <name>opportunity_history_information</name>
+        <startsWith>Vowel</startsWith>
+    </fields><fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Deal History Report</value>
+        </caseValues>
+        <name>opportunity_history_report</name>
+        <startsWith>Vowel</startsWith>
+    </fields><fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Deal ID</value>
+        </caseValues>
+        <name>opportunity_id</name>
+        <startsWith>Vowel</startsWith>
+    </fields><fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Deal Info</value>
+        </caseValues>
+        <name>opportunity_info</name>
+        <startsWith>Vowel</startsWith>
+    </fields><fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Deal Information</value>
+        </caseValues>
+        <name>opportunity_information</name>
+        <startsWith>Vowel</startsWith>
+    </fields><fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Deal Lead Source</value>
+        </caseValues>
+        <name>opportunity_lead_source</name>
+        <startsWith>Vowel</startsWith>
+    </fields><fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Deal Line Item</value>
+        </caseValues>
+        <name>opportunity_line_item</name>
+        <startsWith>Vowel</startsWith>
+    </fields><fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Deal Line Item Field</value>
+        </caseValues>
+        <caseValues>
+            <plural>true</plural>
+            <value>Deal Line Item Fields</value>
+        </caseValues>
+        <name>opportunity_line_item_field</name>
+        <startsWith>Vowel</startsWith>
+    </fields><fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Deal Line Item ID</value>
+        </caseValues>
+        <name>opportunity_line_item_id</name>
+        <startsWith>Vowel</startsWith>
+    </fields><fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Deal Name</value>
+        </caseValues>
+        <caseValues>
+            <plural>true</plural>
+            <value>Deal Names</value>
+        </caseValues>
+        <name>opportunity_name</name>
+        <startsWith>Vowel</startsWith>
+    </fields><fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Deal Owner</value>
+        </caseValues>
+        <caseValues>
+            <plural>true</plural>
+            <value>Deal Owners</value>
+        </caseValues>
+        <name>opportunity_owner</name>
+        <startsWith>Vowel</startsWith>
+    </fields><fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Deal Owner Alias</value>
+        </caseValues>
+        <name>opportunity_owner_alias</name>
+        <startsWith>Vowel</startsWith>
+    </fields><fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Deal Owner Email</value>
+        </caseValues>
+        <name>opportunity_owner_email</name>
+        <startsWith>Vowel</startsWith>
+    </fields><fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Deal Partner Report</value>
+        </caseValues>
+        <name>opportunity_partner_report</name>
+        <startsWith>Vowel</startsWith>
+    </fields><fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Deal Picklists</value>
+        </caseValues>
+        <name>opportunity_picklists</name>
+        <startsWith>Vowel</startsWith>
+    </fields><fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Deal Pipeline</value>
+        </caseValues>
+        <name>opportunity_pipeline</name>
+        <startsWith>Vowel</startsWith>
+    </fields><fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Deal Pipeline Trend</value>
+        </caseValues>
+        <name>opportunity_pipeline_trend</name>
+        <startsWith>Vowel</startsWith>
+    </fields><fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Deal Product Name</value>
+        </caseValues>
+        <caseValues>
+            <plural>true</plural>
+            <value>Deal Product Names</value>
+        </caseValues>
+        <name>opportunity_product_name</name>
+        <startsWith>Vowel</startsWith>
+    </fields><fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Deal Quantity</value>
+        </caseValues>
+        <name>opportunity_quantity</name>
+        <startsWith>Vowel</startsWith>
+    </fields><fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Deal Record Type</value>
+        </caseValues>
+        <caseValues>
+            <plural>true</plural>
+            <value>Deal Record Types</value>
+        </caseValues>
+        <name>opportunity_record_type</name>
+        <startsWith>Vowel</startsWith>
+    </fields><fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Deal Report</value>
+        </caseValues>
+        <caseValues>
+            <plural>true</plural>
+            <value>Deal Reports</value>
+        </caseValues>
+        <name>opportunity_report</name>
+        <startsWith>Vowel</startsWith>
+    </fields><fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Deal Schedule Report</value>
+        </caseValues>
+        <name>opportunity_schedule_report</name>
+        <startsWith>Vowel</startsWith>
+    </fields><fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Deal Source</value>
+        </caseValues>
+        <caseValues>
+            <plural>true</plural>
+            <value>Deal Sources</value>
+        </caseValues>
+        <name>opportunity_source</name>
+        <startsWith>Vowel</startsWith>
+    </fields><fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Deal Stage</value>
+        </caseValues>
+        <caseValues>
+            <plural>true</plural>
+            <value>Deal Stages</value>
+        </caseValues>
+        <name>opportunity_stage</name>
+        <startsWith>Vowel</startsWith>
+    </fields><fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Deal Stage Duration Report</value>
+        </caseValues>
+        <name>opportunity_stage_duration_report</name>
+        <startsWith>Vowel</startsWith>
+    </fields><fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Deal Stage ID</value>
+        </caseValues>
+        <name>opportunity_stage_id</name>
+        <startsWith>Vowel</startsWith>
+    </fields><fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Deal Stage Name</value>
+        </caseValues>
+        <name>opportunity_stage_name</name>
+        <startsWith>Vowel</startsWith>
+    </fields><fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Deal Stage Status</value>
+        </caseValues>
+        <name>opportunity_stage_status</name>
+        <startsWith>Vowel</startsWith>
+    </fields><fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Deal Status</value>
+        </caseValues>
+        <name>opportunity_status</name>
+        <startsWith>Vowel</startsWith>
+    </fields><fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Deal Team</value>
+        </caseValues>
+        <caseValues>
+            <plural>true</plural>
+            <value>Deal Teams</value>
+        </caseValues>
+        <name>opportunity_team</name>
+        <startsWith>Vowel</startsWith>
+    </fields><fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Deal Team Member</value>
+        </caseValues>
+        <caseValues>
+            <plural>true</plural>
+            <value>Deal Team Members</value>
+        </caseValues>
+        <name>opportunity_team_member</name>
+        <startsWith>Vowel</startsWith>
+    </fields><fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Deal Team Member Field</value>
+        </caseValues>
+        <caseValues>
+            <plural>true</plural>
+            <value>Deal Team Member Fields</value>
+        </caseValues>
+        <name>opportunity_team_member_field</name>
+        <startsWith>Vowel</startsWith>
+    </fields><fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Deal Team Member ID</value>
+        </caseValues>
+        <name>opportunity_team_member_id</name>
+        <startsWith>Vowel</startsWith>
+    </fields><fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Deals with Oppportunity Teams and Products Report</value>
+        </caseValues>
+        <name>opportunity_team_product_report</name>
+        <startsWith>Vowel</startsWith>
+    </fields><fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Deal Team Report</value>
+        </caseValues>
+        <caseValues>
+            <plural>true</plural>
+            <value>Deal Team Reports</value>
+        </caseValues>
+        <name>opportunity_team_report</name>
+        <startsWith>Vowel</startsWith>
+    </fields><fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Deal Territory</value>
+        </caseValues>
+        <caseValues>
+            <plural>true</plural>
+            <value>Deal Territories</value>
+        </caseValues>
+        <name>opportunity_territory</name>
+        <startsWith>Vowel</startsWith>
+    </fields><fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Deal Territory</value>
+        </caseValues>
+        <caseValues>
+            <plural>true</plural>
+            <value>Deal Territories</value>
+        </caseValues>
+        <name>opportunity_territory2</name>
+        <startsWith>Vowel</startsWith>
+    </fields><fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Deal Territory</value>
+        </caseValues>
+        <name>opportunity_territory_report</name>
+        <startsWith>Vowel</startsWith>
+    </fields><fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Deal Trend</value>
+        </caseValues>
+        <caseValues>
+            <plural>true</plural>
+            <value>Deal Trends</value>
+        </caseValues>
+        <name>opportunity_trend</name>
+        <startsWith>Vowel</startsWith>
+    </fields><fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Deal Trend Information</value>
+        </caseValues>
+        <name>opportunity_trend_information</name>
+        <startsWith>Vowel</startsWith>
+    </fields><fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Deal Trend Report</value>
+        </caseValues>
+        <name>opportunity_trend_report</name>
+        <startsWith>Vowel</startsWith>
+    </fields><fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Deal Type</value>
+        </caseValues>
+        <name>opportunity_type</name>
+        <startsWith>Vowel</startsWith>
+    </fields><fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Deal View</value>
+        </caseValues>
+        <caseValues>
+            <plural>true</plural>
+            <value>Deal Views</value>
+        </caseValues>
+        <name>opportunity_view</name>
+        <startsWith>Vowel</startsWith>
+    </fields><fields>
+        <help><!-- Accumulated Adjustment to Deal Amounts till closing --></help>
+        <label><!-- Accumulated Adjustment value --></label>
+        <name>Accumulated_Adjustment__c</name>
+    </fields><fields>
+        <label><!-- Commission --></label>
+        <name>Commission__c</name>
+    </fields><fields>
+        <label><!-- Current Generator(s) --></label>
+        <name>CurrentGenerators__c</name>
+    </fields><fields>
+        <label><!-- Data Quality Description --></label>
+        <name>Data_Quality_Description__c</name>
+    </fields><fields>
+        <label><!-- Data Quality Score --></label>
+        <name>Data_Quality_Score__c</name>
+    </fields><fields>
+        <label><!-- Delivery/Installation Status --></label>
+        <name>DeliveryInstallationStatus__c</name>
+        <picklistValues>
+            <masterLabel>Completed</masterLabel>
+            <translation><!-- Completed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In progress</masterLabel>
+            <translation><!-- In progress --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yet to begin</masterLabel>
+            <translation><!-- Yet to begin --></translation>
+        </picklistValues>
+    </fields><fields>
+        <name>LeadSource</name>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Partner Referral</masterLabel>
+            <translation><!-- Partner Referral --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Phone Inquiry</masterLabel>
+            <translation><!-- Phone Inquiry --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Purchased List</masterLabel>
+            <translation><!-- Purchased List --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Web</masterLabel>
+            <translation><!-- Web --></translation>
+        </picklistValues>
+    </fields><fields>
+        <label><!-- Main Competitor(s) --></label>
+        <name>MainCompetitors__c</name>
+    </fields><fields>
+        <label><!-- Order Number --></label>
+        <name>OrderNumber__c</name>
+    </fields><fields>
+        <name>StageName</name>
+        <picklistValues>
+            <masterLabel>Closed Lost</masterLabel>
+            <translation><!-- Closed Lost --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Closed Won</masterLabel>
+            <translation><!-- Closed Won --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Id. Decision Makers</masterLabel>
+            <translation><!-- Id. Decision Makers --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Needs Analysis</masterLabel>
+            <translation><!-- Needs Analysis --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Negotiation/Review</masterLabel>
+            <translation><!-- Negotiation/Review --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Perception Analysis</masterLabel>
+            <translation><!-- Perception Analysis --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Proposal/Price Quote</masterLabel>
+            <translation><!-- Proposal/Price Quote --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Prospecting</masterLabel>
+            <translation><!-- Prospecting --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Qualification</masterLabel>
+            <translation><!-- Qualification --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Value Proposition</masterLabel>
+            <translation><!-- Value Proposition --></translation>
+        </picklistValues>
+    </fields><fields>
+        <label><!-- Total Deal Adjustments count --></label>
+        <name>Total_Deal_Adjustments__c</name>
+    </fields><fields>
+        <label><!-- Tracking Number --></label>
+        <name>TrackingNumber__c</name>
+    </fields><fields>
+        <name>Type</name>
+        <picklistValues>
+            <masterLabel>Existing Customer - Downgrade</masterLabel>
+            <translation><!-- Existing Customer - Downgrade --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Existing Customer - Replacement</masterLabel>
+            <translation><!-- Existing Customer - Replacement --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Existing Customer - Upgrade</masterLabel>
+            <translation><!-- Existing Customer - Upgrade --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New Customer</masterLabel>
+            <translation><!-- New Customer --></translation>
+        </picklistValues>
+    </fields><fields>
+        <label><!-- approval_stage --></label>
+        <name>approval_stage__c</name>
+        <picklistValues>
+            <masterLabel>approved</masterLabel>
+            <translation><!-- approved --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>rejected</masterLabel>
+            <translation><!-- rejected --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>waiting_on_ceo</masterLabel>
+            <translation><!-- waiting_on_ceo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>waiting_on_director</masterLabel>
+            <translation><!-- waiting_on_director --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>waiting_on_manager</masterLabel>
+            <translation><!-- waiting_on_manager --></translation>
+        </picklistValues>
+    </fields><caseValues>
+        <plural>false</plural>
+        <value>Deal</value>
+    </caseValues><caseValues>
+        <plural>true</plural>
+        <value>Deals</value>
+    </caseValues><startsWith>Vowel</startsWith><layouts>
+        <layout>Opportunity (Sales) Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts><layouts>
+        <layout>Opportunity Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts><layouts>
+        <layout>UD Opportunity (closed-newly) Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts><layouts>
+        <layout>UD Opportunity (closed-old) Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts><layouts>
+        <layout>UD Opportunity (open) Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts><recordTypes>
+        <label><!-- UD Deal --></label>
+        <name>UD_BigDeals_Type</name>
+    </recordTypes><recordTypes>
+        <label><!-- UD Long Closed Deal --></label>
+        <name>UD_Long_Closed_Deal</name>
+    </recordTypes><recordTypes>
+        <label><!-- UD Newly Closed Deal --></label>
+        <name>UD_Newly_Closed_Deal</name>
+    </recordTypes><recordTypes>
+        <label><!-- bigdeal --></label>
+        <name>bigdeal</name>
+    </recordTypes><recordTypes>
+        <label><!-- test123 --></label>
+        <name>test123</name>
+    </recordTypes><validationRules>
+        <errorMessage><!-- Deal is already closed.  You may only edit description within 10 days of close. After 10 days of close, current company rule doesn&apos;t allow edit of closed deals. --></errorMessage>
+        <name>UD_deal_no_edit_after_close</name>
+    </validationRules><webLinks>
+        <label><!-- DeliveryStatus --></label>
+        <name>DeliveryStatus</name>
+    </webLinks><workflowTasks>
+        <name>Please_ensure_forecast_category_is_accurate_prior_to_closed</name>
+        <subject><!-- Please ensure forecast category is accurate prior to close --></subject>
+    </workflowTasks><workflowTasks>
+        <name>email_alert_sent</name>
+        <subject><!-- email alert sent --></subject>
+    </workflowTasks><workflowTasks>
+        <name>large_opportunity_approved</name>
+        <subject><!-- large opportunity approved --></subject>
+    </workflowTasks></CustomObjectTranslation>

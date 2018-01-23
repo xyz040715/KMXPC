@@ -1,0 +1,14 @@
+<table border="0" cellpadding="5" width="600" cellspacing="5" height="400" >
+<tr valign="top" height="50" >
+<td tEditID="c1r1" style=" background-color:#FFCCCC; bEditID:r3st1; color:#000000; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r1" locked="0" >
+<![CDATA[<font face="arial"><b>请批准这个大单!</b></font>]]></td>
+</tr>
+<tr valign="top" height="300" >
+<td tEditID="c1r2" style=" background-color:#FFCCCC; bEditID:r3st1; color:#000000; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r2" locked="0" >
+<![CDATA[<table border="0" cellpadding="5" width="600" cellspacing="5" height="400"><tbody><tr valign="top" height="50"><td teditid="c1r1" aeditid="c1r1" locked="0" style="font-size: 12pt; background-color: rgb(255, 204, 204);"></td></tr><tr valign="top" height="300"><td teditid="c1r2" aeditid="c1r2" locked="0" style="font-size: 12pt; background-color: rgb(255, 204, 204);"><div style="font-size: 12pt;"><br></div><div><b style="font-size: 12pt;">单</b><font face="arial"><b>名:</b></font><span style="font-size: 12pt;">&nbsp; &nbsp; {!Opportunity.Name}</span></div><div><font face="arial">客户名</font><font face="arial" style="font-size: 12pt;">: &nbsp;{!Opportunity.Account}</font></div><div><font face="arial">金额</font><font face="arial" style="font-size: 12pt;">: &nbsp; &nbsp; {!Opportunity.Amount}</font></div><div><font face="arial">结算日期</font><font face="arial" style="font-size: 12pt;">: &nbsp;{!Opportunity.CloseDate}</font></div><div><font face="arial">阶段</font><font face="arial" style="font-size: 12pt;">: &nbsp; {!Opportunity.StageName}</font></div><div><font face="arial">所有人</font><font face="arial" style="font-size: 12pt;">: &nbsp;{!Opportunity.OwnerFullName}</font></div><div><font face="arial">录</font><b style="font-size: 12pt;">单</b>人<span style="font-size: 12pt;">: &nbsp;{!Opportunity.CreatedBy}</span></div><div style="font-size: 12pt;"><br></div><div style="font-size: 12pt;"><font face="arial"><br></font></div><div><font face="arial">谢谢你</font><font face="arial" style="font-size: 12pt;">!</font></div><div style="font-size: 12pt;"><font face="arial"><br></font></div><div><font face="arial">此致,</font></div><div><font face="arial"><br></font></div><div><font face="arial">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 敬礼!</font></div><div><font face="arial"><br></font></div><div style="font-size: 12pt;"><font face="arial">&nbsp;{!Opportunity.OwnerFullName}</font></div></td></tr></tbody></table>]]></td>
+</tr>
+<tr valign="top" height="50" >
+<td tEditID="c1r3" style=" background-color:#FFCCCC; bEditID:r3st1; color:#000000; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r3" locked="0" >
+<![CDATA[]]></td>
+</tr>
+</table>

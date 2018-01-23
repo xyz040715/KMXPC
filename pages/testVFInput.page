@@ -1,0 +1,27 @@
+<apex:page standardController="Account" showHeader="false" sidebar="false">
+    <apex:form >
+        <apex:pageBlock title="Hello {!$User.FirstName}!">
+            You are viewing the {!account.name} account. <p/>
+            Change Account Name: <p/>
+            <apex:pageblockSection >
+            <apex:inputField value="{!account.name}" taborderhint="3" /> <p/>
+            <apex:inputField value="{!account.name}" taborderhint="2" /> <p/>
+            <apex:inputField value="{!account.name}" taborderhint="1" /> <p/>
+            <apex:inputTextarea value="{!account.name}" label="name name" /> <p/>
+            <apex:outputField label="account name:" value="{!account.name} " /><p/>
+            <apex:outputField value="{!account.ownerid}" label="Mobile #"/><p/>
+            <apex:commandButton action="{!save}" value="Save New Account Name"/>
+            </apex:pageblockSection>
+            <apex:pageblockButtons >
+                <apex:commandButton value="no action dummy button"/>
+            </apex:pageblockButtons>
+        </apex:pageBlock>
+mineSiteName:        <apex:outputText value="{!$Site.name}" />
+<apex:outputText value="{!$System.OriginDateTime - 365}" />
+<apex:outputText value="{!$User.FirstName+ '!! ' & 'xx' }" />
+<apex:outputText value="{!$User.UITheme+ '!! ' & 'xx' }" /><p/>
+<apex:outputText value="{!$UserRole.Name }" /> <p/>
+<apex:outputText value="{!$UserRole.LastModifiedById }" />
+
+    </apex:form>
+</apex:page>

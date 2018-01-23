@@ -1,0 +1,22 @@
+<!--  WTF - view state doesn't change that much.
+https://me2-dev-ed--c.na34.visual.force.com/apex/testVFActionRegionAccount?id=0016100000NsiUd
+-->
+ <apex:page standardController="account" sidebar="false" showHeader="false" standardStylesheets="false"
+      action="http://www.google.com">
+
+  <apex:form >      
+    <apex:commandButton action="{!save}" value="Update Account"/>
+      <!--Account attributes available for editing -->         
+      
+       <apex:actionRegion >        
+          <apex:commandButton action="{!edit}" value="Edit Accounts"/>      
+          <!--Contact attributes available for editing -->     
+      </apex:actionRegion>  
+          
+</apex:form> 
+           <apex:form > 
+          <apex:commandButton action="{!edit}" value="Edit Accounts"/>      
+</apex:form> 
+
+
+</apex:page>

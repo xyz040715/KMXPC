@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"><fields>
+        <help><!-- Music Monthly Total Cost --></help>
+        <label><!-- Music Monthly Total Cost --></label>
+        <name>Music_Monthly_Total_Cost__c</name>
+    </fields><fields>
+        <label><!-- Report Month --></label>
+        <name>Report_Month__c</name>
+    </fields><fields>
+        <help><!-- Tennis Monthly Total Cost --></help>
+        <label><!-- Tennis Monthly Total Cost --></label>
+        <name>Tennis_Monthly_Total_Cost__c</name>
+    </fields><caseValues>
+        <plural>false</plural>
+        <value>Mm Private Lesson Monthly Cost Snapshot</value>
+    </caseValues><caseValues>
+        <plural>true</plural>
+        <value>Mm Private Lesson Monthly Cost Snapshots</value>
+    </caseValues><startsWith>Consonant</startsWith></CustomObjectTranslation>

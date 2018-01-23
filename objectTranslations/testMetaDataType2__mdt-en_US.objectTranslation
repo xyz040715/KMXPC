@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"><fields>
+        <label><!-- yhCustomMetadataObjectType --></label>
+        <name>yhCustomMetayhCustomMetadadataObjectType__c</name>
+        <relationshipLabel><!-- testMetaDataType2s --></relationshipLabel>
+    </fields><caseValues>
+        <plural>false</plural>
+        <value>testMetaDataType2</value>
+    </caseValues><caseValues>
+        <plural>true</plural>
+        <value>testMetaDataType2s</value>
+    </caseValues><startsWith>Consonant</startsWith></CustomObjectTranslation>

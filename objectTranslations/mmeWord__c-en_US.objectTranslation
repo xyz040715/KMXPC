@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"><fields>
+        <help><!-- E.g. if a word is a noun, then choose n. --></help>
+        <label><!-- attribute --></label>
+        <name>attribute__c</name>
+        <picklistValues>
+            <masterLabel>adj.</masterLabel>
+            <translation><!-- adj. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>adv.</masterLabel>
+            <translation><!-- adv. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>n.</masterLabel>
+            <translation><!-- n. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>v.</masterLabel>
+            <translation><!-- v. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>vt.</masterLabel>
+            <translation><!-- vt. --></translation>
+        </picklistValues>
+    </fields><fields>
+        <help><!-- example sentence. --></help>
+        <label><!-- e.g. --></label>
+        <name>example_sentence__c</name>
+    </fields><fields>
+        <help><!-- Example_Writings --></help>
+        <label><!-- e.g. --></label>
+        <name>example_writings__c</name>
+    </fields><fields>
+        <label><!-- meaning --></label>
+        <name>meaning__c</name>
+    </fields><fields>
+        <label><!-- mmeWordDomain --></label>
+        <name>mmeWordDomain__c</name>
+        <picklistValues>
+            <masterLabel>College-L4</masterLabel>
+            <translation><!-- College-L4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>College-L6</masterLabel>
+            <translation><!-- College-L6 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Elementary</masterLabel>
+            <translation><!-- Elementary --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GMAT</masterLabel>
+            <translation><!-- GMAT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GRE</masterLabel>
+            <translation><!-- GRE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Highschool</masterLabel>
+            <translation><!-- Highschool --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Middleschool</masterLabel>
+            <translation><!-- Middleschool --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TOFEL</masterLabel>
+            <translation><!-- TOFEL --></translation>
+        </picklistValues>
+    </fields><caseValues>
+        <plural>false</plural>
+        <value>mmeWord</value>
+    </caseValues><caseValues>
+        <plural>true</plural>
+        <value>mmeWords</value>
+    </caseValues><startsWith>Consonant</startsWith></CustomObjectTranslation>

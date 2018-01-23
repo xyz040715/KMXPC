@@ -1,0 +1,169 @@
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObject xmlns="http://soap.sforce.com/2006/04/metadata"><actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>Follow</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides><fields>
+        <fullName>Geolocation__c</fullName>
+        <description>Geolocation</description>
+        <displayLocationInDecimal>false</displayLocationInDecimal>
+        <externalId>false</externalId>
+        <inlineHelpText>Geolocation (longtitude, latitude)</inlineHelpText>
+        <label>Geolocation</label>
+        <required>false</required>
+        <scale>5</scale>
+        <trackHistory>false</trackHistory>
+        <type>Location</type>
+    </fields><fields>
+        <fullName>LinkedIn_Profile__c</fullName>
+        <defaultValue>"http://www.linkedin.com"</defaultValue>
+        <description>URL to the camper iinkedin profile</description>
+        <encrypted>false</encrypted>
+        <externalId>false</externalId>
+        <inlineHelpText>URL to linkedIn profile</inlineHelpText>
+        <label>LinkedIn Profile</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Url</type>
+    </fields><fields>
+        <fullName>Rate__c</fullName>
+        <description>rating via 1st impression</description>
+        <externalId>false</externalId>
+        <inlineHelpText>1st impression rating</inlineHelpText>
+        <label>Rate</label>
+        <picklist>
+            <picklistValues>
+                <fullName>hot</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>warm</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>lukewarm</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>cold</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>true</trackTrending>
+        <type>Picklist</type>
+    </fields><fields>
+        <fullName>region__c</fullName>
+        <description>region camper from</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Geo region this camper is at 2015</inlineHelpText>
+        <label>region</label>
+        <picklist>
+            <picklistValues>
+                <fullName>APAC</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>EMEA</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>AMER</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>true</trackTrending>
+        <type>Picklist</type>
+    </fields><fields>
+        <fullName>role0__c</fullName>
+        <description>initial role at 2015</description>
+        <externalId>false</externalId>
+        <inlineHelpText>initial role at 2015</inlineHelpText>
+        <label>role0</label>
+        <picklist>
+            <picklistValues>
+                <fullName>TA</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>TSA</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>BTA</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>PA</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>SPA</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>AE</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>SE</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+    </fields><allowInChatterGroups>true</allowInChatterGroups><compactLayoutAssignment>SYSTEM</compactLayoutAssignment><deploymentStatus>Deployed</deploymentStatus><description>participant of the 10/6 boot camp. anyone</description><enableActivities>true</enableActivities><enableBulkApi>true</enableBulkApi><enableFeeds>false</enableFeeds><enableHistory>true</enableHistory><enableReports>true</enableReports><enableSearch>true</enableSearch><enableSharing>true</enableSharing><enableStreamingApi>true</enableStreamingApi><label>BootCamper</label><nameField>
+        <label>BootCamper Name</label>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+    </nameField><pluralLabel>BootCampers</pluralLabel><searchLayouts /><sharingModel>ReadWrite</sharingModel><startsWith>Vowel</startsWith><listViews>
+        <fullName>All</fullName>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews><validationRules>
+        <fullName>prevent_duplicate</fullName>
+        <active>true</active>
+        <description>validation rules to prevent duplicates</description>
+        <errorConditionFormula>LEN (
+
+VLOOKUP( $ObjectType.BootCamper__c.Fields.Name  ,  $ObjectType.BootCamper__c.Fields.Name ,  Name ) 
+
+)  &lt;&gt; 0</errorConditionFormula>
+        <errorDisplayField>Name</errorDisplayField>
+        <errorMessage>Duplicate found!</errorMessage>
+    </validationRules></CustomObject>

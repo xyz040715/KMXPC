@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>APAC approval emails</description>
+    <encodingKey>GB2312</encodingKey>
+    <letterhead>yhLetterHead</letterhead>
+    <name>UD Approval Request Chinese</name>
+    <style>formalLetter</style>
+    <subject>请批准这个大单 -  {!Opportunity.Name}</subject>
+    <type>html</type>
+</EmailTemplate>

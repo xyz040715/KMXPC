@@ -1,0 +1,34 @@
+<!-- 
+<apex:page standardController="Mme_Private_Lesson__c" docType="html-5.0">
+-->
+
+  <!-- List controller -->
+<apex:page standardController="Mme_Private_Lesson__c" docType="html-5.0" recordSetVar="mmePLs">
+  <apex:form id="theForm">
+     <apex:pageBlock title="Viewing MME PLS">
+      <apex:pageBlockButtons >
+                <apex:commandButton value="Delete" action="{!save}"/>
+            </apex:pageBlockButtons>
+          
+        <apex:pageBlockSection >
+          <apex:pageBlockTable var="mme" value="{!mmePLs}" >
+          <apex:column > {!mme.name}
+            <apex:inputField value="{!mme.Cost__c} " /> </apex:column>
+          </apex:pageBlockTable>
+        </apex:pageBlockSection>
+      </apex:pageBlock>
+  </apex:form>
+  
+  
+  
+
+  <!-- Create new records -->
+  <apex:form >  <apex:pageBlock > 
+  <apex:pageBlockButtons >      <apex:commandButton action="{!save}" value="create" /></apex:pageBlockButtons>
+  
+Lesson: <apex:inputField value="{!Mme_Private_Lesson__c.Private_Lesson__c}" /> <br/>
+Date: <apex:inputField value="{!Mme_Private_Lesson__c.LessonDate__c}" type="datetime" /> <br/>  
+Maxwell: <apex:inputField value="{!Mme_Private_Lesson__c.Maxwell__c}"  /> <br/>  
+Michael: <apex:inputField value="{!Mme_Private_Lesson__c.Michael__c}" /> <br/>  
+   </apex:pageBlock>  </apex:form>
+</apex:page>

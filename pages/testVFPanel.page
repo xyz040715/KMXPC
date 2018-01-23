@@ -1,0 +1,64 @@
+<apex:page >
+    <apex:panelGrid columns="3" id="theGrid" >
+        <apex:outputText value="First" id="theFirst"/>
+        <apex:outputText value="Second" id="theSecond"/>
+        <apex:outputText value="Third" id="theThird"/>
+        <apex:outputText value="Fourth" id="theFourth"/>
+        <apex:outputText value="5" id="t5"/>
+        <apex:outputText value="6Fourth" id="t6"/>
+        <apex:outputText value="7Fourth" id="t7"/>
+        <apex:outputText value="8asdl;fjasd;lkfjl;ak        dsjflk;asdjl;Fourth" id="t8"/>
+    </apex:panelGrid>
+    
+    <!-- another example -->
+      <apex:panelGrid columns="3" id="theGrid2">
+        <apex:outputText value="First" id="theFirs1t"/>
+        <apex:outputText value="Second" id="theSeco2nd"/>
+        <apex:panelGroup id="theGroup">
+            <apex:outputText value="Third" id="theT3hird"/>
+            <apex:outputText value="Fourth" id="theF4ourth"/>
+        </apex:panelGroup>
+
+<!--            </apex:panelGrid><apex:panelGrid>
+                <apex:panelGroup id="theGroupBar">
+-->
+
+        <!-- bar -->
+    <apex:panelBar >
+        <apex:panelBarItem label="Item 1">data 1</apex:panelBarItem>
+<apex:panelBarItem label="Item 2">data 2</apex:panelBarItem>
+        <apex:panelBarItem label="Item 3">data 3</apex:panelBarItem>
+    </apex:panelBar>
+
+    <apex:panelBar >
+        <apex:panelBarItem label="Item 1">data 1</apex:panelBarItem>
+<apex:panelBarItem label="Item 2">data 2</apex:panelBarItem>
+        <apex:panelBarItem label="Item 3">data 3</apex:panelBarItem>
+    </apex:panelBar>
+                <!-- /apex:panelGroup -->
+    </apex:panelGrid>
+
+
+<!-- param for google -->
+  
+  
+  
+    <apex:toolbar id="theToolbar">
+  <apex:outputText value="Sample Toolbar"/>
+        <apex:toolbarGroup itemSeparator="line" id="toobarGroupLinks">
+            <apex:outputLink value="http://www.salesforce.com">
+              salesforce
+            </apex:outputLink>
+            <apex:outputLink value="http://developer.salesforce.com">
+             apex developer network
+            </apex:outputLink>
+        </apex:toolbarGroup>
+        <apex:toolbarGroup itemSeparator="line" location="right" id="toobarGroupForm">
+            <apex:form id="theForm">
+                <apex:inputText id="theInputText">Enter Text</apex:inputText>
+                <apex:commandLink value="search" id="theCommandLink"/>
+            </apex:form>
+        </apex:toolbarGroup>
+    </apex:toolbar>
+    
+</apex:page>

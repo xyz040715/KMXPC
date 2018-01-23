@@ -1,0 +1,3 @@
+<apex:page >
+    <c:testVFMyComponent myValue="My component's value abc" borderColor="blue" />
+</apex:page>

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"><fields>
+        <help><!-- 一流学科 --></help>
+        <label><!-- 一流学科 --></label>
+        <name>Subject__c</name>
+        <relationshipLabel><!-- SubjectsUniversities 一流学科 --></relationshipLabel>
+    </fields><fields>
+        <help><!-- 双一流大学 --></help>
+        <label><!-- University --></label>
+        <name>University__c</name>
+        <relationshipLabel><!-- 双一流大学 --></relationshipLabel>
+    </fields><caseValues>
+        <plural>false</plural>
+        <value>SubjectUniversity</value>
+    </caseValues><caseValues>
+        <plural>true</plural>
+        <value>SubjectsUniversities</value>
+    </caseValues><startsWith>Consonant</startsWith></CustomObjectTranslation>

@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObject xmlns="http://soap.sforce.com/2006/04/metadata"><actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>Follow</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>Mme_Tennis_Music_Lessons_Record_Page_App</content>
+        <formFactor>Large</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+    </actionOverrides><compactLayouts>
+        <fullName>LessonDateCost_Compact_Layout</fullName>
+        <fields>Private_Lesson__c</fields>
+        <fields>LessonDate__c</fields>
+        <fields>Cost__c</fields>
+        <label>LessonDateCost Compact Layout</label>
+    </compactLayouts><fields>
+        <fullName>Cost__c</fullName>
+        <defaultValue>60</defaultValue>
+        <externalId>false</externalId>
+        <inlineHelpText>automatically calculated cost based on 1) private lesson type;  2) how many kids took the lesson</inlineHelpText>
+        <label>Cost</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>true</trackTrending>
+        <type>Currency</type>
+    </fields><fields>
+        <fullName>Emily__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Emily is taking the lesson today</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Check if Emily is taking the lesson today</inlineHelpText>
+        <label>Emily</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields><fields>
+        <fullName>LessonDate__c</fullName>
+        <defaultValue>NOW()</defaultValue>
+        <description>date lesson taken</description>
+        <encrypted>false</encrypted>
+        <externalId>false</externalId>
+        <inlineHelpText>Date the lesson is taken</inlineHelpText>
+        <label>Lesson Date</label>
+        <required>true</required>
+        <trackHistory>false</trackHistory>
+        <type>DateTime</type>
+    </fields><fields>
+        <fullName>Maxwell__c</fullName>
+        <defaultValue>true</defaultValue>
+        <description>Check if Maxwell takes lesson</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Check if Maxwell takes lesson</inlineHelpText>
+        <label>Maxwell</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields><fields>
+        <fullName>Michael__c</fullName>
+        <defaultValue>true</defaultValue>
+        <description>Michael takes the music lesson</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Check if Michael takes the music lesson</inlineHelpText>
+        <label>Michael</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields><fields>
+        <fullName>Private_Lesson__c</fullName>
+        <description>private lesson type</description>
+        <externalId>false</externalId>
+        <inlineHelpText>click to select one</inlineHelpText>
+        <label>Private Lesson</label>
+        <picklist>
+            <picklistValues>
+                <fullName>Tennis</fullName>
+                <default>true</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Music</fullName>
+                <default>false</default>
+            </picklistValues>
+            <restrictedPicklist>true</restrictedPicklist>
+            <sorted>false</sorted>
+        </picklist>
+        <required>true</required>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+    </fields><allowInChatterGroups>true</allowInChatterGroups><compactLayoutAssignment>LessonDateCost_Compact_Layout</compactLayoutAssignment><deploymentStatus>Deployed</deploymentStatus><description>Record of private lessons, 
+    aka, tennis, music, etc.
+ for Maxwell, Michael and later Cici.</description><enableActivities>true</enableActivities><enableBulkApi>true</enableBulkApi><enableFeeds>false</enableFeeds><enableHistory>true</enableHistory><enableReports>true</enableReports><enableSearch>true</enableSearch><enableSharing>true</enableSharing><enableStreamingApi>true</enableStreamingApi><label>Mme Private Lesson</label><nameField>
+        <displayFormat>Mme_{YYYY}-{MM}-{DD}-{000}</displayFormat>
+        <label>Mme Private Lesson ID</label>
+        <trackHistory>false</trackHistory>
+        <type>AutoNumber</type>
+    </nameField><pluralLabel>Mme_Private_Lessons</pluralLabel><searchLayouts>
+        <customTabListAdditionalFields>Private_Lesson__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>LessonDate__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Cost__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Maxwell__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Michael__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Emily__c</customTabListAdditionalFields>
+        <lookupDialogsAdditionalFields>Private_Lesson__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>LessonDate__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Cost__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Maxwell__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Michael__c</lookupDialogsAdditionalFields>
+        <searchFilterFields>Private_Lesson__c</searchFilterFields>
+        <searchFilterFields>LessonDate__c</searchFilterFields>
+        <searchFilterFields>Maxwell__c</searchFilterFields>
+        <searchFilterFields>Michael__c</searchFilterFields>
+        <searchFilterFields>Cost__c</searchFilterFields>
+        <searchResultsAdditionalFields>Private_Lesson__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>LessonDate__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Cost__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Maxwell__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Michael__c</searchResultsAdditionalFields>
+    </searchLayouts><sharingModel>ReadWrite</sharingModel><listViews>
+        <fullName>All</fullName>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews><validationRules>
+        <fullName>Mme_must_take_the_lesson</fullName>
+        <active>true</active>
+        <description>one of M m e must be checked as taking the lessons</description>
+        <errorConditionFormula>NOT(Maxwell__c || Michael__c || Emily__c)</errorConditionFormula>
+        <errorDisplayField>Maxwell__c</errorDisplayField>
+        <errorMessage>Must check one: Maxwell, Michael or Cici</errorMessage>
+    </validationRules></CustomObject>

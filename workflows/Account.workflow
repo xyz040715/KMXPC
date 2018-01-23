@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Workflow xmlns="http://soap.sforce.com/2006/04/metadata"><fieldUpdates>
+        <fullName>hot_account_goes_inactive</fullName>
+        <field>UpsellOpportunity__c</field>
+        <literalValue>Maybe</literalValue>
+        <name>hot account goes inactive</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+    </fieldUpdates><fieldUpdates>
+        <fullName>updateAccountNote</fullName>
+        <field>Description</field>
+        <name>updateAccountNote</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Null</operation>
+        <protected>false</protected>
+    </fieldUpdates><outboundMessages>
+        <fullName>yhOutboundMsg</fullName>
+        <apiVersion>35.0</apiVersion>
+        <endpointUrl>http://me2-dev-ed.my.salesforce.com</endpointUrl>
+        <fields>AccountNumber</fields>
+        <fields>Description</fields>
+        <fields>Id</fields>
+        <includeSessionId>false</includeSessionId>
+        <integrationUser>yhou2015@salesforce.com</integrationUser>
+        <name>yhOutboundMsg</name>
+        <protected>false</protected>
+        <useDeadLetterQueue>false</useDeadLetterQueue>
+    </outboundMessages><rules>
+        <fullName>addressSyncAccount2Contact</fullName>
+        <active>false</active>
+        <criteriaItems>
+            <field>Account.BillingCity</field>
+            <operation>equals</operation>
+            <value>atlanta</value>
+        </criteriaItems>
+        <description>when account address changed, contact address being changed automatically</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+        <workflowTimeTriggers>
+            <timeLength>30</timeLength>
+            <workflowTimeTriggerUnit>Days</workflowTimeTriggerUnit>
+        </workflowTimeTriggers>
+    </rules></Workflow>

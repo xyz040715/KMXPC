@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AuthProvider xmlns="http://soap.sforce.com/2006/04/metadata">
+    <authorizeUrl>https://app.box.com/api/oauth2/authorize</authorizeUrl>
+    <consumerKey>mt66c6rrqhtv2do4ccvtqdlshjli0dy7</consumerKey>
+    <consumerSecret>eL2BCZlS8irCraSNzu/ljf40dkE463SDaKa7rpFvG+pwQRj3Ygtq1w==</consumerSecret>
+    <friendlyName>boxdotcom</friendlyName>
+    <includeOrgIdInIdentifier>false</includeOrgIdInIdentifier>
+    <providerType>OpenIdConnect</providerType>
+    <sendAccessTokenInHeader>true</sendAccessTokenInHeader>
+    <sendClientCredentialsInHeader>false</sendClientCredentialsInHeader>
+    <tokenUrl>https://app.box.com/api/oauth2/token</tokenUrl>
+</AuthProvider>

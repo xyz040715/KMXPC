@@ -1,0 +1,12 @@
+<apex:page standardController="Document" >
+    <apex:messages />
+    <apex:form id="theForm">
+      <apex:pageBlock >
+          <apex:pageBlockSection >
+            <apex:inputFile value="{!document.body}" filename="{!document.name}" /> 
+            <!-- folder -->
+            <apex:commandButton value="Save" action="{!save}"/>
+          </apex:pageBlockSection>
+       </apex:pageBlock>
+    </apex:form>
+</apex:page>

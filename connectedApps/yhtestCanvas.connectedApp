@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ConnectedApp xmlns="http://soap.sforce.com/2006/04/metadata">
+    <canvasConfig>
+        <accessMethod>Post</accessMethod>
+        <canvasUrl>https://yhtestcanvas.herokuapp.com/canvas</canvasUrl>
+        <locations>Chatter</locations>
+        <samlInitiationMethod>None</samlInitiationMethod>
+    </canvasConfig>
+    <contactEmail>yhou@salesforce.com</contactEmail>
+    <iconUrl>https://yhtestcanvas.herokuapp.com/icon.png</iconUrl>
+    <infoUrl>https://yhtestcanvas.herokuapp.com/welcome.jsp</infoUrl>
+    <label>yhtestCanvas</label>
+    <logoUrl>https://yhtestcanvas.herokuapp.com/logo.png</logoUrl>
+    <oauthConfig>
+        <callbackUrl>https://yhtestcanvas.herokuapp.com/callback</callbackUrl>
+        <consumerKey>3MVG9KI2HHAq33RwTgQ6wE6xzTLqdaeqH6XmLoMtDcA10Ch0jLpKN5CYxE2o6l5.xZZn7mAZ_6LmDaUd6S513</consumerKey>
+        <scopes>Basic</scopes>
+        <scopes>Chatter</scopes>
+    </oauthConfig>
+</ConnectedApp>

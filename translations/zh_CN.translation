@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Translations xmlns="http://soap.sforce.com/2006/04/metadata"><customApplications>
+        <label><!-- Agile Accelerator --></label>
+        <name>Agile_Accelerator</name>
+    </customApplications><customApplications>
+        <label><!-- Agile Accelerator --></label>
+        <name>Agile_Accelerator_LEX</name>
+    </customApplications><customApplications>
+        <label><!-- China2050 --></label>
+        <name>China2050</name>
+    </customApplications><customApplications>
+        <label><!-- FutureChina 未来中国 --></label>
+        <name>FutureChina</name>
+    </customApplications><customApplications>
+        <label><!-- Maxwell, Michael and Emily --></label>
+        <name>MmeEnterpriseApp</name>
+    </customApplications><customApplications>
+        <label><!-- Maxwell, Michael and Emily Lightning --></label>
+        <name>MmeEnterpriseApp_Lightning</name>
+    </customApplications><customApplications>
+        <label><!-- 双一流 --></label>
+        <name>TopUniversity</name>
+    </customApplications><customApplications>
+        <label><!-- 双一流 Lightning --></label>
+        <name>TopUniversity_Lightning</name>
+    </customApplications><customApplications>
+        <label><!-- Warehouse --></label>
+        <name>Warehouse</name>
+    </customApplications><customApplications>
+        <label><!-- Warehouse Lightning --></label>
+        <name>Warehouse_Lightning</name>
+    </customApplications><customApplications>
+        <label><!-- boot camp 1 --></label>
+        <name>boot_camp_1</name>
+    </customApplications><customApplications>
+        <label><!-- yhSLDS_ContactsApp --></label>
+        <name>yhSLDS_ContactsApp</name>
+    </customApplications><customPageWebLinks>
+        <label><!-- Help --></label>
+        <name>Help</name>
+    </customPageWebLinks><customTabs>
+        <label><!-- Kanban Board --></label>
+        <name>ADM_Kanban_Board</name>
+    </customTabs><customTabs>
+        <label><!-- Backlog Manager --></label>
+        <name>ADM_Unified_Wall</name>
+    </customTabs><customTabs>
+        <label><!-- Data --></label>
+        <name>Data</name>
+    </customTabs><customTabs>
+        <label><!-- Settings --></label>
+        <name>Gus_Settings</name>
+    </customTabs><customTabs>
+        <label><!-- LtnCmpState --></label>
+        <name>LtnCmpState</name>
+    </customTabs><customTabs>
+        <label><!-- Teams --></label>
+        <name>MyTeam</name>
+    </customTabs><customTabs>
+        <label><!-- My Teams --></label>
+        <name>My_Teams</name>
+    </customTabs><customTabs>
+        <label><!-- Tennis/Music Lessons --></label>
+        <name>Tennis_Music_Lessons</name>
+    </customTabs><customTabs>
+        <label><!-- TestApp --></label>
+        <name>TestApp</name>
+    </customTabs><customTabs>
+        <label><!-- Work Manager --></label>
+        <name>Work_Manager</name>
+    </customTabs><customTabs>
+        <label><!-- appLightningPage --></label>
+        <name>appLightningPage</name>
+    </customTabs><customTabs>
+        <label><!-- app page --></label>
+        <name>app_page</name>
+    </customTabs><customTabs>
+        <label><!-- testme --></label>
+        <name>testme</name>
+    </customTabs><customTabs>
+        <label><!-- yhSLDS_Contacts --></label>
+        <name>yhSLDS_Contacts</name>
+    </customTabs><customTabs>
+        <label><!-- yhTestGmail --></label>
+        <name>yhTestGmail</name>
+    </customTabs><globalPicklists>
+        <name>UD_Regions</name>
+        <picklistValues>
+            <masterLabel>APAC</masterLabel>
+            <translation><!-- APAC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EMEA</masterLabel>
+            <translation><!-- EMEA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NA</masterLabel>
+            <translation><!-- NA --></translation>
+        </picklistValues>
+    </globalPicklists><quickActions>
+        <label><!-- Create New BootCamper --></label>
+        <name>AddCamper</name>
+    </quickActions><quickActions>
+        <label><!-- Log a cici activity --></label>
+        <name>ciciAct</name>
+    </quickActions><quickActions>
+        <label><!-- New Tennis/Music/etc. Lesson --></label>
+        <name>Global_action_Mme_Private_Lesson</name>
+    </quickActions><quickActions>
+        <label><!-- LogACall --></label>
+        <name>LogACall</name>
+    </quickActions><quickActions>
+        <label><!-- NewAccount --></label>
+        <name>NewAccount</name>
+    </quickActions><quickActions>
+        <label><!-- NewCase --></label>
+        <name>NewCase</name>
+    </quickActions><quickActions>
+        <label><!-- NewContact --></label>
+        <name>NewContact</name>
+    </quickActions><quickActions>
+        <label><!-- New 精英 --></label>
+        <name>NewEliteIndividual</name>
+    </quickActions><quickActions>
+        <label><!-- NewEvent --></label>
+        <name>NewEvent</name>
+    </quickActions><quickActions>
+        <label><!-- NewGroup --></label>
+        <name>NewGroup</name>
+    </quickActions><quickActions>
+        <label><!-- NewLead --></label>
+        <name>NewLead</name>
+    </quickActions><quickActions>
+        <label><!-- NewNote --></label>
+        <name>NewNote</name>
+    </quickActions><quickActions>
+        <label><!-- NewOpportunity --></label>
+        <name>NewOpportunity</name>
+    </quickActions><quickActions>
+        <label><!-- NewTask --></label>
+        <name>NewTask</name>
+    </quickActions><quickActions>
+        <label><!-- Add Record --></label>
+        <name>New_Detailed_Account</name>
+    </quickActions><quickActions>
+        <label><!-- New 精英集团 --></label>
+        <name>New_EliteGroup</name>
+    </quickActions><quickActions>
+        <label><!-- SendEmail --></label>
+        <name>SendEmail</name>
+    </quickActions></Translations>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<apex:page sidebar="true" showHeader="true" >
+  <!-- Begin Default Content REMOVE THIS -->
+  {! $User.firstname & ' ' & $User.lastname} <p/>
+<h1> {! $User.FirstName} {! $User.LastName}, </h1>
+true or false? {! contains('salesforce', 'force') }
+  <h1>Hello, World</h1>
+  <apex:pageBlock title="pageBlock">
+  
+  <apex:pageBlockSection title="BlockSection1">
+  <apex:pageBlockSectionItem >
+  this is a section item1</apex:pageBlockSectionItem>
+  <apex:pageBlockSectionItem >
+  this is a section item2
+  </apex:pageBlockSectionItem>
+  <apex:pageBlockSectionItem >
+  this is a section item3
+  </apex:pageBlockSectionItem>
+  </apex:pageBlockSection>
+  
+  <apex:pageBlockSection title="BlockSection2">
+      <apex:pageBlockSectionItem >
+      this is a section item
+      </apex:pageBlockSectionItem>
+  </apex:pageBlockSection>
+  I am here at a block
+  </apex:pageBlock>
+  
+</apex:page>

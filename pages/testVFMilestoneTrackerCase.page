@@ -1,0 +1,4 @@
+<apex:page standardController="Case" showHeader="true">
+ <apex:milestoneTracker entityId="{!case.id}"/>
+<apex:listViews type="Case"/>
+</apex:page>

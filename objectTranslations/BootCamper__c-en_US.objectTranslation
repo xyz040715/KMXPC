@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"><fields>
+        <help><!-- Geolocation (longtitude, latitude) --></help>
+        <label><!-- Geolocation --></label>
+        <name>Geolocation__c</name>
+    </fields><fields>
+        <help><!-- URL to linkedIn profile --></help>
+        <label><!-- LinkedIn Profile --></label>
+        <name>LinkedIn_Profile__c</name>
+    </fields><fields>
+        <help><!-- 1st impression rating --></help>
+        <label><!-- Rate --></label>
+        <name>Rate__c</name>
+        <picklistValues>
+            <masterLabel>cold</masterLabel>
+            <translation><!-- cold --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>hot</masterLabel>
+            <translation><!-- hot --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>lukewarm</masterLabel>
+            <translation><!-- lukewarm --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>warm</masterLabel>
+            <translation><!-- warm --></translation>
+        </picklistValues>
+    </fields><fields>
+        <help><!-- Geo region this camper is at 2015 --></help>
+        <label><!-- region --></label>
+        <name>region__c</name>
+        <picklistValues>
+            <masterLabel>AMER</masterLabel>
+            <translation><!-- AMER --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>APAC</masterLabel>
+            <translation><!-- APAC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EMEA</masterLabel>
+            <translation><!-- EMEA --></translation>
+        </picklistValues>
+    </fields><fields>
+        <help><!-- initial role at 2015 --></help>
+        <label><!-- role0 --></label>
+        <name>role0__c</name>
+        <picklistValues>
+            <masterLabel>AE</masterLabel>
+            <translation><!-- AE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BTA</masterLabel>
+            <translation><!-- BTA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PA</masterLabel>
+            <translation><!-- PA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SE</masterLabel>
+            <translation><!-- SE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SPA</masterLabel>
+            <translation><!-- SPA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TA</masterLabel>
+            <translation><!-- TA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TSA</masterLabel>
+            <translation><!-- TSA --></translation>
+        </picklistValues>
+    </fields><caseValues>
+        <plural>false</plural>
+        <value>BootCamper</value>
+    </caseValues><caseValues>
+        <plural>true</plural>
+        <value>BootCampers</value>
+    </caseValues><startsWith>Vowel</startsWith><validationRules>
+        <errorMessage><!-- Duplicate found! --></errorMessage>
+        <name>prevent_duplicate</name>
+    </validationRules></CustomObjectTranslation>

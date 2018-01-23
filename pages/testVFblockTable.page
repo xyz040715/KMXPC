@@ -1,0 +1,15 @@
+<!-- 
+https://me2-dev-ed--c.na34.visual.force.com/apex/testVFBlockTable?id=0016100000NsiUd
+
+-->
+<apex:page standardController="Account" showHeader="false" showChat="false">
+    <apex:pageBlock title="My Content">
+        <apex:pageBlockTable value="{!account.Contacts}" var="item">
+            <apex:column value="{!item.name}"/>
+            <apex:column value="{!item.id}"/>
+            <apex:column value="{!item.accountid}"/>
+            <apex:column value="{!item.account.id}"/>
+        </apex:pageBlockTable>
+    </apex:pageBlock>
+    <apex:listViews type="contact"/>
+</apex:page>

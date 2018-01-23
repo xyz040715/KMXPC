@@ -1,0 +1,23 @@
+<apex:page sidebar="true">
+  <h2>Let’s start chatting...</h2>
+
+  Click the big button to start a chat.
+  <br />
+  <!--Button Code-->
+<img id="liveagent_button_online_57361000000Cmfz" alt="online button" height="100"  style="display: none; border: 0px none; cursor: pointer" onclick="liveagent.startChat('57361000000Cmfz')" src="https://yhoutest123-developer-edition.na34.force.com/liveagentchat/resource/1484929357000/OnlineButton" />
+<img id="liveagent_button_offline_57361000000Cmfz" alt="offline button" height="100"  style="display: none; border: 0px none; " src="https://yhoutest123-developer-edition.na34.force.com/liveagentchat/resource/1484928001000/OfflineButton" />
+<script type="text/javascript">
+if (!window._laq) { window._laq = []; }
+window._laq.push(function(){liveagent.showWhenOnline('57361000000Cmfz', document.getElementById('liveagent_button_online_57361000000Cmfz'));
+liveagent.showWhenOffline('57361000000Cmfz', document.getElementById('liveagent_button_offline_57361000000Cmfz'));
+});</script>
+
+  <!--Deployment Code-->
+<script type='text/javascript' src='https://c.la1-c1-phx.salesforceliveagent.com/content/g/js/38.0/deployment.js'></script>
+<script type='text/javascript'>
+liveagent.init('https://d.la1-c1-phx.salesforceliveagent.com/chat', '572610000008ZhJ', '00D6100000084By');
+</script>
+<p/>Thank you for contacting customer services.
+<p/>&copy;copyright 2017 by Mme - all rights reserved. 
+<!-- analytics:reportChart reportId="01Z61000000hCA6" developerName="UD_Forecast_Reports"></analytics:reportChart -->
+</apex:page>

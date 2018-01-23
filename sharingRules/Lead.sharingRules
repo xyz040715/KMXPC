@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?><SharingRules xmlns="http://soap.sforce.com/2006/04/metadata"><sharingCriteriaRules>
+        <fullName>yhSharingWSupport</fullName>
+        <accessLevel>Read</accessLevel>
+        <description>sharing lead with support folks</description>
+        <label>yhSharingWSupport</label>
+        <sharedTo>
+            <roleAndSubordinatesInternal>CFO</roleAndSubordinatesInternal>
+        </sharedTo>
+        <criteriaItems>
+            <field>LastName</field>
+            <operation>notEqual</operation>
+            <value>hou</value>
+        </criteriaItems>
+    </sharingCriteriaRules></SharingRules>

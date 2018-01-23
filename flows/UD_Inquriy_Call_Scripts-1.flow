@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <interviewLabel>UD Inquriy Call Scripts {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>UD Inquriy Call Scripts</label>
+    <processType>Flow</processType>
+    <recordUpdates>
+        <name>Update_address</name>
+        <label>Update address</label>
+        <locationX>302</locationX>
+        <locationY>74</locationY>
+        <connector>
+            <targetReference>Wrapup</targetReference>
+        </connector>
+        <filters>
+            <field>FirstName</field>
+            <operator>EqualTo</operator>
+        </filters>
+        <filters>
+            <field>LastName</field>
+            <operator>EqualTo</operator>
+        </filters>
+        <inputAssignments>
+            <field>Email</field>
+            <value>
+                <elementReference>EmailAddress</elementReference>
+            </value>
+        </inputAssignments>
+        <object>Contact</object>
+    </recordUpdates>
+    <screens>
+        <name>Greeting</name>
+        <label>Greeting</label>
+        <locationX>6</locationX>
+        <locationY>76</locationY>
+        <allowBack>true</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>true</allowPause>
+        <connector>
+            <targetReference>Update_address</targetReference>
+        </connector>
+        <fields>
+            <name>CollectingInformation</name>
+            <fieldText>Hi  ,  can you please provide your email address?</fieldText>
+            <fieldType>DisplayText</fieldType>
+        </fields>
+        <helpText>Please tell me your name.</helpText>
+        <pausedText>Please wait for 3 minutes. Sorry for put you on hold</pausedText>
+    </screens>
+    <screens>
+        <name>Wrapup</name>
+        <label>Wrapup</label>
+        <locationX>488</locationX>
+        <locationY>100</locationY>
+        <allowBack>true</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>true</allowPause>
+    </screens>
+    <startElementReference>Greeting</startElementReference>
+    <variables>
+        <name>EmailAddress</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+    <variables>
+        <name>firstName</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+    <variables>
+        <name>lastName</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+</Flow>

@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"><fields>
+        <label><!-- 精英集团 --></label>
+        <name>EliteGroup__c</name>
+        <relationshipLabel><!-- EliteAssociations --></relationshipLabel>
+    </fields><fields>
+        <label><!-- 精英 --></label>
+        <name>EliteName__c</name>
+        <relationshipLabel><!-- EliteAssociations --></relationshipLabel>
+    </fields><fields>
+        <label><!-- 终止日 --></label>
+        <name>EndDate__c</name>
+    </fields><fields>
+        <help><!-- Start Date --></help>
+        <label><!-- 起始日 --></label>
+        <name>StartDate__c</name>
+    </fields><fields>
+        <help><!-- TerminateReason
+会员终止原因 --></help>
+        <label><!-- 终止原因 --></label>
+        <name>TerminateReason__c</name>
+    </fields><fields>
+        <label><!-- 终止 --></label>
+        <name>Terminated__c</name>
+    </fields><fields>
+        <help><!-- 是否候补委员？ --></help>
+        <label><!-- 候补委员 --></label>
+        <name>isBackupMember__c</name>
+    </fields><fields>
+        <help><!-- 是否递补委员 --></help>
+        <label><!-- 递补委员 --></label>
+        <name>promotedMember__c</name>
+    </fields><fields>
+        <help><!-- 递补日 --></help>
+        <label><!-- 递补日 --></label>
+        <name>promotedStartDate__c</name>
+    </fields><caseValues>
+        <plural>false</plural>
+        <value>集团成员</value>
+    </caseValues><caseValues>
+        <plural>true</plural>
+        <value>集团成员</value>
+    </caseValues><startsWith>Consonant</startsWith><layouts>
+        <layout>集团成员 Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts><validationRules>
+        <errorMessage><!-- EndDate is required when terminated
+请填写终止日 --></errorMessage>
+        <name>EndDate_Is_Required_IF_terminated</name>
+    </validationRules><validationRules>
+        <errorMessage><!-- Terminate Reason are required when member is terminated. 
+请填写：终止原因 --></errorMessage>
+        <name>Terminate_Reason_Required_IF_terminated</name>
+    </validationRules></CustomObjectTranslation>

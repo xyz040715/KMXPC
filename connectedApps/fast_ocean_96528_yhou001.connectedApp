@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ConnectedApp xmlns="http://soap.sforce.com/2006/04/metadata">
+    <contactEmail>yhou@salesforce.com</contactEmail>
+    <contactPhone>8003334444</contactPhone>
+    <iconUrl>https://login.salesforce.com/logos/Standards/OAuth/icon.png</iconUrl>
+    <label>fast-ocean-96528</label>
+    <logoUrl>https://login.salesforce.com/logos/Standards/OAuth/logo.png</logoUrl>
+    <oauthConfig>
+        <callbackUrl>https://fast-ocean-96528.herokuapp.com/_auth</callbackUrl>
+        <consumerKey>3MVG9KI2HHAq33RwTgQ6wE6xzTDckH5w9ypPHLa.NmA99JDMahn96FLSkpy_A1iPD1vE1TdivjXxhVYjpDyzW</consumerKey>
+        <scopes>Full</scopes>
+    </oauthConfig>
+</ConnectedApp>

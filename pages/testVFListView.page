@@ -1,0 +1,7 @@
+<apex:page showHeader="true" sidebar="false" tabstyle="Account">
+My List views on one page:
+<p/><br/>
+    <apex:ListViews type="Mme_Private_Lesson__c"  />
+<p/>
+    <apex:ListViews type="Case" />
+</apex:page>

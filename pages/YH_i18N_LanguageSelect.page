@@ -1,0 +1,47 @@
+<apex:page controller="testVFMessagesAccountMyController" language="{!lang}" showHeader="true" sidebar="true">
+<apex:messages />
+    <apex:pageMessage summary="This is some text in English that also needs to be translated" severity="info" 
+                      strength="3" />
+    <apex:pageMessage summary=" https://me2-dev-ed--c.na34.visual.force.com/apex/YH_i18N_LanguageSelect?id=00161000011LB73" severity="fatal" 
+                      strength="3" />
+    <apex:pageMessage summary=" this is error" severity="Error" 
+                      strength="3" />
+    <apex:pageMessage summary=" just to confirm" severity="CONFIRM" 
+                      strength="3" />
+    <apex:pageMessage summary=" just to warning" severity="warning" 
+                      strength="3" />
+    <apex:pageMessages />
+    <apex:pageBlock >
+
+    <apex:form >
+     <apex:pageBlockSection title="{!$ObjectType.Account.fields.Name.label}">
+          <apex:inputField label="{!$ObjectType.Account.fields.Name.label}" value="{!Account.Name}"/>
+       </apex:pageBlockSection>  
+     <apex:pageBlockSection title="Please select a lang: ">
+         <apex:selectList label="lang" value="{!lang}" size="1" multiselect="false">        
+           <apex:selectOptions value="{!langs}"></apex:selectOptions>
+   </apex:selectList>
+         <apex:inputCheckbox label="Set lang for user? " value="{!isSaveLangForUser}" />
+   </apex:pageBlockSection>
+
+<center> <b>  <apex:commandButton value="save" title="save" action="{!save}"/> </b>
+</center>
+    </apex:form>
+
+    </apex:pageBlock>
+
+    <apex:pageBlock >
+        <apex:pageBlockSection title="Basic Information (ENGLISH)">
+            <apex:outputField value="{!Account.Name}"/>
+            <apex:outputField value="{!Account.Industry}"/>
+            <apex:outputField value="{!Account.region__c}"/>
+        </apex:pageBlockSection>
+        <apex:pageBlockSection title="Other Info (ENGLISH)">
+            <apex:outputField value="{!Account.Description}"/>
+            <apex:outputField value="{!Account.Website}"/>
+        </apex:pageBlockSection>
+            you selected: {!lang}
+    
+    </apex:pageBlock>
+
+</apex:page>

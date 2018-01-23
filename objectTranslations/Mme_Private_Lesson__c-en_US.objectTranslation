@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"><fields>
+        <help><!-- automatically calculated cost based on 1) private lesson type;  2) how many kids took the lesson --></help>
+        <label><!-- Cost --></label>
+        <name>Cost__c</name>
+    </fields><fields>
+        <help><!-- Check if Emily is taking the lesson today --></help>
+        <label><!-- Emily --></label>
+        <name>Emily__c</name>
+    </fields><fields>
+        <help><!-- Date the lesson is taken --></help>
+        <label><!-- Lesson Date --></label>
+        <name>LessonDate__c</name>
+    </fields><fields>
+        <help><!-- Check if Maxwell takes lesson --></help>
+        <label><!-- Maxwell --></label>
+        <name>Maxwell__c</name>
+    </fields><fields>
+        <help><!-- Check if Michael takes the music lesson --></help>
+        <label><!-- Michael --></label>
+        <name>Michael__c</name>
+    </fields><fields>
+        <help><!-- click to select one --></help>
+        <label><!-- Private Lesson --></label>
+        <name>Private_Lesson__c</name>
+        <picklistValues>
+            <masterLabel>Music</masterLabel>
+            <translation><!-- Music --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tennis</masterLabel>
+            <translation><!-- Tennis --></translation>
+        </picklistValues>
+    </fields><caseValues>
+        <plural>false</plural>
+        <value>Mme Private Lesson</value>
+    </caseValues><caseValues>
+        <plural>true</plural>
+        <value>Mme_Private_Lessons</value>
+    </caseValues><startsWith>Consonant</startsWith><layouts>
+        <layout>MmMusicLesson Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts><validationRules>
+        <errorMessage><!-- Must check one: Maxwell, Michael or Cici --></errorMessage>
+        <name>Mme_must_take_the_lesson</name>
+    </validationRules></CustomObjectTranslation>

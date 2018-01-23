@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <interviewLabel>ME2_learn_basic {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>ME2_learn_basic</label>
+    <processType>Flow</processType>
+    <steps>
+        <name>chose_word_set</name>
+        <label>chose word set</label>
+        <locationX>325</locationX>
+        <locationY>42</locationY>
+        <connectors>
+            <targetReference>flip_word_cards</targetReference>
+        </connectors>
+    </steps>
+    <steps>
+        <name>flip_word_cards</name>
+        <label>flip word cards</label>
+        <locationX>326</locationX>
+        <locationY>157</locationY>
+        <connectors>
+            <targetReference>review_progress</targetReference>
+        </connectors>
+    </steps>
+    <steps>
+        <description>learn all words</description>
+        <name>Learn_All</name>
+        <label>Learn</label>
+        <locationX>99</locationX>
+        <locationY>42</locationY>
+        <connectors>
+            <targetReference>chose_word_set</targetReference>
+        </connectors>
+    </steps>
+    <steps>
+        <name>review_progress</name>
+        <label>review progress</label>
+        <locationX>582</locationX>
+        <locationY>159</locationY>
+    </steps>
+</Flow>

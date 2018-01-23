@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"><fields>
+        <help><!-- standard case object. --></help>
+        <label><!-- Case --></label>
+        <name>Case__c</name>
+        <relationshipLabel><!-- Order --></relationshipLabel>
+    </fields><fields>
+        <label><!-- Order --></label>
+        <name>Order__c</name>
+        <relationshipLabel><!-- Case --></relationshipLabel>
+    </fields><caseValues>
+        <plural>false</plural>
+        <value>CaseOrderAssociation</value>
+    </caseValues><caseValues>
+        <plural>true</plural>
+        <value>CaseOrderAssociations</value>
+    </caseValues><startsWith>Consonant</startsWith><layouts>
+        <layout>CaseOrderAssociation Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts></CustomObjectTranslation>

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObject xmlns="http://soap.sforce.com/2006/04/metadata"><fields>
+        <fullName>yhCustomMetayhCustomMetadadataObjectType__c</fullName>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>yhCustomMetadataObjectType</label>
+        <referenceTo>yhCustomMetadataType__mdt</referenceTo>
+        <relationshipLabel>testMetaDataType2s</relationshipLabel>
+        <relationshipName>testMetaDataType2s</relationshipName>
+        <required>false</required>
+        <type>MetadataRelationship</type>
+        <unique>false</unique>
+    </fields><label>testMetaDataType2</label><pluralLabel>testMetaDataType2s</pluralLabel><visibility>Public</visibility></CustomObject>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>EMEA approval emails</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>yhLetterHead</letterhead>
+    <name>UD Approval Request Francais</name>
+    <style>formalLetter</style>
+    <subject>Approvez cette deal grande - {!Opportunity.Name}</subject>
+    <textOnly>请批准这个大单!
+
+单名: {!Opportunity.Name}
+客户名:  {!Opportunity.Account}
+金额:     {!Opportunity.Amount}
+结算日期:  {!Opportunity.CloseDate}
+阶段:   {!Opportunity.StageName}
+所有人:  {!Opportunity.OwnerFullName}
+录单人:  {!Opportunity.CreatedBy}
+
+
+谢谢你!
+
+此致,
+
+敬礼!
+
+{!Opportunity.OwnerFullName}</textOnly>
+    <type>html</type>
+</EmailTemplate>
