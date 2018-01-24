@@ -1,0 +1,3238 @@
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObject xmlns="http://soap.sforce.com/2006/04/metadata"><actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>Follow</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides><compactLayouts>
+        <fullName>agf__Work</fullName>
+        <fields>agf__WorkId_and_Subject__c</fields>
+        <fields>agf__Status__c</fields>
+        <fields>RecordTypeId</fields>
+        <fields>agf__Scrum_Team__c</fields>
+        <fields>agf__Product_Tag__c</fields>
+        <label>Work</label>
+    </compactLayouts><allowInChatterGroups>false</allowInChatterGroups><compactLayoutAssignment>agf__Work</compactLayoutAssignment><deploymentStatus>Deployed</deploymentStatus><deprecated>false</deprecated><description>Multipurpose object that defines bugs, defects, incidents, user stories, test cases, etc.</description><enableActivities>true</enableActivities><enableBulkApi>true</enableBulkApi><enableEnhancedLookup>true</enableEnhancedLookup><enableFeeds>true</enableFeeds><enableHistory>true</enableHistory><enableReports>true</enableReports><enableSearch>true</enableSearch><enableSharing>true</enableSharing><enableStreamingApi>true</enableStreamingApi><label>Work</label><nameField>
+        <displayFormat>W-{000000}</displayFormat>
+        <label>Work ID</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>AutoNumber</type>
+    </nameField><pluralLabel>Work</pluralLabel><recordTypeTrackFeedHistory>true</recordTypeTrackFeedHistory><recordTypeTrackHistory>true</recordTypeTrackHistory><searchLayouts>
+        <customTabListAdditionalFields>agf__Subject__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>agf__Type__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>agf__Status__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>agf__Product_Tag__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>agf__Assignee__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>agf__Priority__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>agf__Scrum_Team__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>agf__Scheduled_Build__c</customTabListAdditionalFields>
+        <listViewButtons>agf__Show_Print_Notecards</listViewButtons>
+        <listViewButtons>agf__Story_Point</listViewButtons>
+        <lookupDialogsAdditionalFields>agf__Subject__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>agf__Product_Tag__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>agf__Type__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>agf__Status__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>agf__Priority__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>agf__Assignee__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>agf__Scrum_Team__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>agf__Scheduled_Build__c</lookupDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>agf__Subject__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>agf__Product_Tag__c</lookupPhoneDialogsAdditionalFields>
+        <searchFilterFields>agf__Subject__c</searchFilterFields>
+        <searchFilterFields>RECORDTYPE</searchFilterFields>
+        <searchFilterFields>agf__Type__c</searchFilterFields>
+        <searchFilterFields>agf__Status__c</searchFilterFields>
+        <searchFilterFields>agf__Assignee__c</searchFilterFields>
+        <searchFilterFields>agf__Priority__c</searchFilterFields>
+        <searchFilterFields>agf__Scrum_Team__c</searchFilterFields>
+        <searchFilterFields>agf__Scheduled_Build__c</searchFilterFields>
+        <searchFilterFields>LAST_UPDATE</searchFilterFields>
+        <searchFilterFields>agf__Customer__c</searchFilterFields>
+        <searchResultsAdditionalFields>agf__Subject__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>agf__Status__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>agf__Type__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>RECORDTYPE</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>agf__Priority__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>agf__Assignee__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>agf__Scrum_Team__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>agf__Scheduled_Build__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>LAST_UPDATE</searchResultsAdditionalFields>
+    </searchLayouts><sharingModel>ReadWrite</sharingModel><fieldSets>
+        <fullName>agf__Additional_Fields</fullName>
+        <description>The fields in this field set are being used for the Additional Fields section in the work detail page.</description>
+        <displayedFields>
+            <field>agf__Apex_Hammer_Compile_Failure__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>agf__Data_Silo_Test_Affected__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>agf__Environment__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>agf__Mobile_Device__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>agf__Mobile_Device_OS__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>agf__Mobile_Network__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>agf__Number_of_Orgs_affected__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>agf__Number_of_Tests_Classes_affected__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>agf__S1_App_Build_Number__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>agf__Schema__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>agf__Modules__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <label>Additional Fields</label>
+    </fieldSets><fieldSets>
+        <fullName>agf__Custom_Fields</fullName>
+        <description>Any fields added to this field set will be displayed on the Work Page</description>
+        <displayedFields>
+            <field>agf__Type__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>agf__UE_Engineer__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>agf__Test_Failure_Status__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>agf__Priority_Rank__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>agf__System_Test_Engineer__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>agf__Resolution__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>agf__Use_Prioritizer__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>agf__Epic__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <label>Custom Fields</label>
+    </fieldSets><recordTypes>
+        <fullName>agf__Bug</fullName>
+        <active>true</active>
+        <description>Used to track defects or problems</description>
+        <label>Bug</label>
+        <picklistValues>
+            <picklist>agf__Attributes__c</picklist>
+            <values>
+                <fullName>Automated</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Flapper</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Regressed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Security</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Technical Debt</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Trust</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>agf__Complete_By__c</picklist>
+            <values>
+                <fullName>Apr 2009 sprint</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Aug 2009 sprint</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dec 2009 sprint</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Feb 2009 sprint</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Jan 2009 sprint</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Jul 2009 sprint</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Jun 2009 sprint</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Mar 2009 sprint</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>May 2009 sprint</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Nov 2009 sprint</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Oct 2009 sprint</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sep 2009 sprint</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>agf__Deal_at_Risk__c</picklist>
+            <values>
+                <fullName>New</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Renewal</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>agf__Environment__c</picklist>
+            <values>
+                <fullName>Blitz Localhost</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Mobile1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Mobile2</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Production</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sandbox</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>agf__Help_Status__c</picklist>
+            <values>
+                <fullName>Closed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Deferred</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Fixed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>In Progress</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Info Only</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>New</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Needed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pilot</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Ready for Review</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>agf__Major_Func_Area__c</picklist>
+            <values>
+                <fullName>%2ENET</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>agf__Mobile_Device_OS__c</picklist>
+            <values>
+                <fullName>Android 4%2E2%2Ex</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Android 4%2E3</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Android 4%2E4%2Ex</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Android 5%2Ex</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Windows 10 Pro</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Windows 10%2E0</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Windows 8%2E0</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Windows 8%2E0 Pro</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Windows 8%2E1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Windows 8%2E1 Pro</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Windows Phone 10%2E0</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Windows Phone 8%2E0</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Windows Phone 8%2E1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>iOS 8</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>iOS 9%2E0</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>iOS 9%2E0%2E1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>iOS 9%2E0%2E2</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>iOS 9%2E1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>iOS 9%2E2</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>agf__Mobile_Device__c</picklist>
+            <values>
+                <fullName>Android Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dell Windows Tablet</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Galaxy 4</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Galaxy 5</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Galaxy Note 2</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Galaxy Note3</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Galaxy S3</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HTC Windows Phone 8x</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Nexus 10</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Nexus 4</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Nexus 5</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Nexus 7</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Nokia 1020</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Nokia Lumia 1020</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Nokia Lumia 1520</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Nokia Lumia 635</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Nokia Lumia 900</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Nokia Lumia 920</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Nokia Lumia 928</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Surface Pro 3</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SurfaceSurface Pro 2</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Windows Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>iOS Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>iPad 4</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>iPad Air</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>iPad Air 2</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>iPad Mini 4</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>iPad Pro</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>iPhone 5</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>iPhone 5S</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>iPhone 6</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>iPhone 6 Plus</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>iPhone 6S</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>iPhone 6S Plus</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>agf__Mobile_Network__c</picklist>
+            <values>
+                <fullName>3G</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Edge</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Offline%2FAirplane mode</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>WiFi 4G%2FLTE</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>agf__Perforce_Status__c</picklist>
+            <values>
+                <fullName>Open</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Open Once</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>agf__Priority__c</picklist>
+            <values>
+                <fullName>P0</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>P1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>P2</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>P3</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>P4</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>agf__Product_Area__c</picklist>
+            <values>
+                <fullName>API</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>agf__Product_Child__c</picklist>
+            <values>
+                <fullName>AXIS</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>agf__Resolution__c</picklist>
+            <values>
+                <fullName>App Bug Fix</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Duplicate Test Failure</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Reproducible%3A Autobuild environment issue</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Reproducible%3A Broken By Another Team</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Reproducible%3A Other %28please specify in Chatter feed%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Reproducible%3A SauceLabs issue</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Reproducible%3A Unknown</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Test Change%3A Due to app changes</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Test Change%3A Test issue only</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Test Removed%2FDisabled</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>agf__Severity_Level__c</picklist>
+            <values>
+                <fullName>1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>3</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>4</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>agf__Status__c</picklist>
+            <values>
+                <fullName>Closed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Duplicate</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Fixed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>In Progress</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Integrate</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Never</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>New</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Not Reproducible</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not a bug</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pending Release</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>QA In Progress</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Ready for Review</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Triaged</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Waiting</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>agf__Test_Failure_Status__c</picklist>
+            <values>
+                <fullName>Blocking</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Signed Off</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>agf__Type__c</picklist>
+            <values>
+                <fullName>Bug</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Bug List</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Help</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Integrate</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Skunkforce</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Test Case</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Test Change</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Test Failure</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Test Tool</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Translation</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes><recordTypes>
+        <fullName>agf__Investigation</fullName>
+        <active>true</active>
+        <description>Used to request R&amp;D triage/diagnosis support for a customer support escalation</description>
+        <label>Investigation</label>
+        <picklistValues>
+            <picklist>agf__Attributes__c</picklist>
+            <values>
+                <fullName>Automated</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Security</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Technical Debt</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Trust</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>agf__Complete_By__c</picklist>
+            <values>
+                <fullName>Apr 2009 sprint</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Aug 2009 sprint</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dec 2009 sprint</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Feb 2009 sprint</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Jan 2009 sprint</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Jul 2009 sprint</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Jun 2009 sprint</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Mar 2009 sprint</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>May 2009 sprint</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Nov 2009 sprint</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Oct 2009 sprint</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sep 2009 sprint</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>agf__Deal_at_Risk__c</picklist>
+            <values>
+                <fullName>New</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>New %26 Renewal</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Renewal</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>agf__Environment__c</picklist>
+            <values>
+                <fullName>Blitz Localhost</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Mobile1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Mobile2</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Production</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sandbox</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>agf__Help_Status__c</picklist>
+            <values>
+                <fullName>Closed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Deferred</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Fixed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>In Progress</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Info Only</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>New</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Needed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pilot</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Ready for Review</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>agf__Major_Func_Area__c</picklist>
+            <values>
+                <fullName>%2ENET</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>agf__Mobile_Device_OS__c</picklist>
+            <values>
+                <fullName>Android 4%2E2%2Ex</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Android 4%2E3</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Android 4%2E4%2Ex</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Android 5%2Ex</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Windows 10 Pro</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Windows 10%2E0</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Windows 8%2E0</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Windows 8%2E0 Pro</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Windows 8%2E1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Windows 8%2E1 Pro</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Windows Phone 10%2E0</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Windows Phone 8%2E0</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Windows Phone 8%2E1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>iOS 8</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>iOS 9%2E0</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>iOS 9%2E0%2E1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>iOS 9%2E0%2E2</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>iOS 9%2E1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>iOS 9%2E2</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>agf__Mobile_Device__c</picklist>
+            <values>
+                <fullName>Android Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dell Windows Tablet</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Galaxy 4</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Galaxy 5</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Galaxy Note 2</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Galaxy Note3</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Galaxy S3</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HTC Windows Phone 8x</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Nexus 10</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Nexus 4</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Nexus 5</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Nexus 7</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Nokia 1020</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Nokia Lumia 1020</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Nokia Lumia 1520</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Nokia Lumia 635</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Nokia Lumia 900</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Nokia Lumia 920</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Nokia Lumia 928</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Surface Pro 3</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SurfaceSurface Pro 2</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Windows Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>iOS Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>iPad 4</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>iPad Air</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>iPad Air 2</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>iPad Mini 4</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>iPad Pro</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>iPhone 5</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>iPhone 5S</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>iPhone 6</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>iPhone 6 Plus</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>iPhone 6S</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>iPhone 6S Plus</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>agf__Mobile_Network__c</picklist>
+            <values>
+                <fullName>3G</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Edge</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Offline%2FAirplane mode</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>WiFi 4G%2FLTE</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>agf__Perforce_Status__c</picklist>
+            <values>
+                <fullName>Open</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Open Once</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>agf__Priority__c</picklist>
+            <values>
+                <fullName>P0</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>P1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>P2</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>P3</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>P4</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>agf__Product_Area__c</picklist>
+            <values>
+                <fullName>API</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>agf__Product_Child__c</picklist>
+            <values>
+                <fullName>AXIS</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>agf__Resolution__c</picklist>
+            <values>
+                <fullName>App Bug Fix</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Duplicate Test Failure</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Reproducible%3A Autobuild environment issue</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Reproducible%3A Broken By Another Team</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Reproducible%3A Other %28please specify in Chatter feed%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Reproducible%3A SauceLabs issue</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Reproducible%3A Unknown</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Test Change%3A Due to app changes</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Test Change%3A Test issue only</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Test Removed%2FDisabled</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>agf__Severity_Level__c</picklist>
+            <values>
+                <fullName>1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>3</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>4</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>agf__Status__c</picklist>
+            <values>
+                <fullName>Acknowledged</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Closed - Defunct</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Closed - Duplicate</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Closed - Known Bug Exists</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Closed - LAP Request Approved</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Closed - LAP Request Denied</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Closed - New Bug Logged</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Closed - No Fix - Feature Request</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Closed - No Fix - Will Not Fix</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Closed - No Fix - Working as Designed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Closed - Resolved With Internal Tools</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Closed - Resolved Without Code Change</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Investigating</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>More Info Reqd from Support</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>New</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Rejected</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>agf__Test_Failure_Status__c</picklist>
+            <values>
+                <fullName>Blocking</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Signed Off</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>agf__Type__c</picklist>
+            <values>
+                <fullName>Bug</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Bug List</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Help</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Integrate</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Skunkforce</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Test Case</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Test Change</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Test Failure</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Test Tool</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Translation</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes><recordTypes>
+        <fullName>agf__Template</fullName>
+        <active>true</active>
+        <description>Used to store common values which can then be applied to new Bugs</description>
+        <label>Template</label>
+        <picklistValues>
+            <picklist>agf__Attributes__c</picklist>
+            <values>
+                <fullName>Automated</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Security</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Technical Debt</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Trust</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>agf__Complete_By__c</picklist>
+            <values>
+                <fullName>Apr 2009 sprint</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Aug 2009 sprint</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dec 2009 sprint</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Feb 2009 sprint</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Jan 2009 sprint</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Jul 2009 sprint</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Jun 2009 sprint</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Mar 2009 sprint</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>May 2009 sprint</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Nov 2009 sprint</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Oct 2009 sprint</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sep 2009 sprint</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>agf__Deal_at_Risk__c</picklist>
+            <values>
+                <fullName>New</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Renewal</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>agf__Environment__c</picklist>
+            <values>
+                <fullName>Blitz Localhost</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Mobile1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Mobile2</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Production</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sandbox</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>agf__Help_Status__c</picklist>
+            <values>
+                <fullName>Closed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Deferred</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Fixed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>In Progress</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Info Only</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>New</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Needed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pilot</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Ready for Review</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>agf__Major_Func_Area__c</picklist>
+            <values>
+                <fullName>%2ENET</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>agf__Mobile_Device_OS__c</picklist>
+            <values>
+                <fullName>Android 4%2E2%2Ex</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Android 4%2E3</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Android 4%2E4%2Ex</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Android 5%2Ex</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Windows 10 Pro</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Windows 10%2E0</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Windows 8%2E0</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Windows 8%2E0 Pro</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Windows 8%2E1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Windows 8%2E1 Pro</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Windows Phone 10%2E0</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Windows Phone 8%2E0</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Windows Phone 8%2E1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>iOS 8</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>iOS 9%2E0</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>iOS 9%2E0%2E1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>iOS 9%2E0%2E2</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>iOS 9%2E1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>iOS 9%2E2</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>agf__Mobile_Device__c</picklist>
+            <values>
+                <fullName>Android Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dell Windows Tablet</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Galaxy 4</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Galaxy 5</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Galaxy Note 2</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Galaxy Note3</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Galaxy S3</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HTC Windows Phone 8x</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Nexus 10</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Nexus 4</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Nexus 5</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Nexus 7</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Nokia 1020</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Nokia Lumia 1020</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Nokia Lumia 1520</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Nokia Lumia 635</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Nokia Lumia 900</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Nokia Lumia 920</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Nokia Lumia 928</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Surface Pro 3</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SurfaceSurface Pro 2</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Windows Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>iOS Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>iPad 4</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>iPad Air</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>iPad Air 2</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>iPad Mini 4</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>iPad Pro</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>iPhone 5</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>iPhone 5S</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>iPhone 6</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>iPhone 6 Plus</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>iPhone 6S</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>iPhone 6S Plus</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>agf__Mobile_Network__c</picklist>
+            <values>
+                <fullName>3G</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Edge</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Offline%2FAirplane mode</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>WiFi 4G%2FLTE</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>agf__Perforce_Status__c</picklist>
+            <values>
+                <fullName>Open</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Open Once</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>agf__Priority__c</picklist>
+            <values>
+                <fullName>P0</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>P1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>P2</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>P3</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>P4</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>agf__Product_Area__c</picklist>
+            <values>
+                <fullName>API</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>agf__Product_Child__c</picklist>
+            <values>
+                <fullName>AXIS</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>agf__Resolution__c</picklist>
+            <values>
+                <fullName>App Bug Fix</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Duplicate Test Failure</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Reproducible%3A Autobuild environment issue</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Reproducible%3A Broken By Another Team</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Reproducible%3A Other %28please specify in Chatter feed%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Reproducible%3A SauceLabs issue</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Reproducible%3A Unknown</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Test Change%3A Due to app changes</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Test Change%3A Test issue only</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Test Removed%2FDisabled</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>agf__Severity_Level__c</picklist>
+            <values>
+                <fullName>1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>3</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>4</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>agf__Status__c</picklist>
+            <values>
+                <fullName>Closed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Duplicate</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Fixed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>In Progress</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Integrate</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Never</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>New</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Not Reproducible</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not a bug</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pending Release</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>QA In Progress</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Ready for Review</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Triaged</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Waiting</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>agf__Test_Failure_Status__c</picklist>
+            <values>
+                <fullName>Blocking</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Signed Off</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>agf__Type__c</picklist>
+            <values>
+                <fullName>Bug</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Bug List</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Help</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Integrate</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Skunkforce</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Test Case</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Test Change</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Test Failure</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Test Tool</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Translation</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes><recordTypes>
+        <fullName>agf__ToDo</fullName>
+        <active>true</active>
+        <description>Used to track a unit of work that does not need to have anything checked into Source Control nor does it need to have auto assignment rules applied</description>
+        <label>ToDo</label>
+        <picklistValues>
+            <picklist>agf__Attributes__c</picklist>
+            <values>
+                <fullName>Automated</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Security</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Technical Debt</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Trust</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>agf__Complete_By__c</picklist>
+            <values>
+                <fullName>Apr 2009 sprint</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Aug 2009 sprint</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dec 2009 sprint</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Feb 2009 sprint</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Jan 2009 sprint</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Jul 2009 sprint</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Jun 2009 sprint</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Mar 2009 sprint</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>May 2009 sprint</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Nov 2009 sprint</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Oct 2009 sprint</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sep 2009 sprint</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>agf__Deal_at_Risk__c</picklist>
+            <values>
+                <fullName>New</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Renewal</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>agf__Environment__c</picklist>
+            <values>
+                <fullName>Blitz Localhost</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Mobile1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Mobile2</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Production</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sandbox</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>agf__Help_Status__c</picklist>
+            <values>
+                <fullName>Closed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Deferred</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Fixed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>In Progress</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Info Only</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>New</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Needed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pilot</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Ready for Review</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>agf__Major_Func_Area__c</picklist>
+            <values>
+                <fullName>%2ENET</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>agf__Mobile_Device_OS__c</picklist>
+            <values>
+                <fullName>Android 4%2E2%2Ex</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Android 4%2E3</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Android 4%2E4%2Ex</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Android 5%2Ex</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Windows 10 Pro</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Windows 10%2E0</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Windows 8%2E0</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Windows 8%2E0 Pro</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Windows 8%2E1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Windows 8%2E1 Pro</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Windows Phone 10%2E0</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Windows Phone 8%2E0</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Windows Phone 8%2E1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>iOS 8</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>iOS 9%2E0</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>iOS 9%2E0%2E1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>iOS 9%2E0%2E2</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>iOS 9%2E1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>iOS 9%2E2</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>agf__Mobile_Device__c</picklist>
+            <values>
+                <fullName>Android Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dell Windows Tablet</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Galaxy 4</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Galaxy 5</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Galaxy Note 2</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Galaxy Note3</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Galaxy S3</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HTC Windows Phone 8x</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Nexus 10</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Nexus 4</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Nexus 5</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Nexus 7</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Nokia 1020</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Nokia Lumia 1020</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Nokia Lumia 1520</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Nokia Lumia 635</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Nokia Lumia 900</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Nokia Lumia 920</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Nokia Lumia 928</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Surface Pro 3</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SurfaceSurface Pro 2</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Windows Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>iOS Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>iPad 4</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>iPad Air</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>iPad Air 2</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>iPad Mini 4</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>iPad Pro</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>iPhone 5</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>iPhone 5S</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>iPhone 6</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>iPhone 6 Plus</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>iPhone 6S</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>iPhone 6S Plus</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>agf__Mobile_Network__c</picklist>
+            <values>
+                <fullName>3G</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Edge</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Offline%2FAirplane mode</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>WiFi 4G%2FLTE</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>agf__Perforce_Status__c</picklist>
+            <values>
+                <fullName>Open</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Open Once</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>agf__Priority__c</picklist>
+            <values>
+                <fullName>P0</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>P1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>P2</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>P3</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>P4</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>agf__Product_Area__c</picklist>
+            <values>
+                <fullName>API</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>agf__Product_Child__c</picklist>
+            <values>
+                <fullName>AXIS</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>agf__Resolution__c</picklist>
+            <values>
+                <fullName>App Bug Fix</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Duplicate Test Failure</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Reproducible%3A Autobuild environment issue</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Reproducible%3A Broken By Another Team</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Reproducible%3A Other %28please specify in Chatter feed%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Reproducible%3A SauceLabs issue</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Reproducible%3A Unknown</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Test Change%3A Due to app changes</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Test Change%3A Test issue only</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Test Removed%2FDisabled</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>agf__Severity_Level__c</picklist>
+            <values>
+                <fullName>1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>3</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>4</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>agf__Status__c</picklist>
+            <values>
+                <fullName>Completed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Deferred</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>New</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>agf__Test_Failure_Status__c</picklist>
+            <values>
+                <fullName>Blocking</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Signed Off</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>agf__Type__c</picklist>
+            <values>
+                <fullName>Bug</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Bug List</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Help</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Integrate</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Skunkforce</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Test Case</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Test Change</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Test Failure</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Test Tool</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Translation</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes><recordTypes>
+        <fullName>agf__User_Story</fullName>
+        <active>true</active>
+        <description>Used to create feature requests. You are able to check in code against the user story record.</description>
+        <label>User Story</label>
+        <picklistValues>
+            <picklist>agf__Attributes__c</picklist>
+            <values>
+                <fullName>Automated</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Flapper</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Requires Testing</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Security</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Technical Debt</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Trust</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>agf__Complete_By__c</picklist>
+            <values>
+                <fullName>Apr 2009 sprint</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Aug 2009 sprint</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dec 2009 sprint</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Feb 2009 sprint</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Jan 2009 sprint</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Jul 2009 sprint</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Jun 2009 sprint</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Mar 2009 sprint</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>May 2009 sprint</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Nov 2009 sprint</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Oct 2009 sprint</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sep 2009 sprint</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>agf__Deal_at_Risk__c</picklist>
+            <values>
+                <fullName>New</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Renewal</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>agf__Environment__c</picklist>
+            <values>
+                <fullName>Blitz Localhost</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Mobile1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Mobile2</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Production</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sandbox</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>agf__Help_Status__c</picklist>
+            <values>
+                <fullName>Closed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Deferred</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Fixed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>In Progress</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Info Only</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>New</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Needed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pilot</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Ready for Review</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>agf__Major_Func_Area__c</picklist>
+            <values>
+                <fullName>%2ENET</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>agf__Mobile_Device_OS__c</picklist>
+            <values>
+                <fullName>Android 4%2E2%2Ex</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Android 4%2E3</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Android 4%2E4%2Ex</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Android 5%2Ex</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Windows 10 Pro</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Windows 10%2E0</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Windows 8%2E0</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Windows 8%2E0 Pro</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Windows 8%2E1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Windows 8%2E1 Pro</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Windows Phone 10%2E0</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Windows Phone 8%2E0</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Windows Phone 8%2E1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>iOS 8</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>iOS 9%2E0</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>iOS 9%2E0%2E1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>iOS 9%2E0%2E2</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>iOS 9%2E1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>iOS 9%2E2</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>agf__Mobile_Device__c</picklist>
+            <values>
+                <fullName>Android Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dell Windows Tablet</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Galaxy 4</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Galaxy 5</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Galaxy Note 2</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Galaxy Note3</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Galaxy S3</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HTC Windows Phone 8x</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Nexus 10</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Nexus 4</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Nexus 5</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Nexus 7</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Nokia 1020</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Nokia Lumia 1020</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Nokia Lumia 1520</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Nokia Lumia 635</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Nokia Lumia 900</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Nokia Lumia 920</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Nokia Lumia 928</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Surface Pro 3</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SurfaceSurface Pro 2</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Windows Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>iOS Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>iPad 4</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>iPad Air</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>iPad Air 2</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>iPad Mini 4</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>iPad Pro</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>iPhone 5</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>iPhone 5S</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>iPhone 6</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>iPhone 6 Plus</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>iPhone 6S</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>iPhone 6S Plus</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>agf__Mobile_Network__c</picklist>
+            <values>
+                <fullName>3G</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Edge</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Offline%2FAirplane mode</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>WiFi 4G%2FLTE</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>agf__Perforce_Status__c</picklist>
+            <values>
+                <fullName>Open</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Open Once</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>agf__Priority__c</picklist>
+            <values>
+                <fullName>P1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>P2</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>P3</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>P4</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>agf__Product_Area__c</picklist>
+            <values>
+                <fullName>API</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>agf__Product_Child__c</picklist>
+            <values>
+                <fullName>AXIS</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>agf__Resolution__c</picklist>
+            <values>
+                <fullName>App Bug Fix</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Duplicate Test Failure</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Reproducible%3A Autobuild environment issue</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Reproducible%3A Broken By Another Team</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Reproducible%3A Other %28please specify in Chatter feed%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Reproducible%3A SauceLabs issue</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Reproducible%3A Unknown</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Test Change%3A Due to app changes</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Test Change%3A Test issue only</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Test Removed%2FDisabled</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>agf__Severity_Level__c</picklist>
+            <values>
+                <fullName>1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>3</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>4</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>agf__Status__c</picklist>
+            <values>
+                <fullName>Closed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Duplicate</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Fixed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>In Progress</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Integrate</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Never</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>New</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Pending Release</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>QA In Progress</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Ready for Review</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Triaged</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Waiting</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>agf__Test_Failure_Status__c</picklist>
+            <values>
+                <fullName>Blocking</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Signed Off</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>agf__Type__c</picklist>
+            <values>
+                <fullName>Bug</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Bug List</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Help</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Integrate</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Skunkforce</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Test Case</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Test Change</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Test Failure</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Test Tool</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Translation</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes></CustomObject>
