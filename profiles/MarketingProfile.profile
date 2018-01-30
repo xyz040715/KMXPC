@@ -2,9 +2,6 @@
         <apexClass>CC_Sketch__DrawVFController</apexClass>
         <enabled>true</enabled>
     </classAccesses><classAccesses>
-        <apexClass>CC_Sketch__Test_DrawVfController</apexClass>
-        <enabled>true</enabled>
-    </classAccesses><classAccesses>
         <apexClass>WarehouseDataInstall</apexClass>
         <enabled>true</enabled>
     </classAccesses><classAccesses>
@@ -1263,6 +1260,9 @@
         <enabled>true</enabled>
     </classAccesses><classAccesses>
         <apexClass>agf__QA_AddTestCasesController</apexClass>
+        <enabled>true</enabled>
+    </classAccesses><classAccesses>
+        <apexClass>CC_Sketch__Test_DrawVfController</apexClass>
         <enabled>true</enabled>
     </classAccesses><classAccesses>
         <apexClass>agf__QA_GenerateAnnotationsController</apexClass>
