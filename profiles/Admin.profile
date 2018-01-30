@@ -5,9 +5,6 @@
         <apexClass>AsyncToolingSoapSforceCom</apexClass>
         <enabled>true</enabled>
     </classAccesses><classAccesses>
-        <apexClass>AsyncYHCommission</apexClass>
-        <enabled>true</enabled>
-    </classAccesses><classAccesses>
         <apexClass>CC_Sketch__DrawVFController</apexClass>
         <enabled>true</enabled>
     </classAccesses><classAccesses>
@@ -18,6 +15,9 @@
         <enabled>true</enabled>
     </classAccesses><classAccesses>
         <apexClass>ChangePasswordControllerTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses><classAccesses>
+        <apexClass>AsyncYHCommission</apexClass>
         <enabled>true</enabled>
     </classAccesses><classAccesses>
         <apexClass>CommunitiesLandingController</apexClass>
