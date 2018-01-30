@@ -14,9 +14,6 @@
         <apexClass>agf__ADM_AddWorkToPrioritizerExtensionTest</apexClass>
         <enabled>true</enabled>
     </classAccesses><classAccesses>
-        <apexClass>agf__ADM_AddWorkToSprintController</apexClass>
-        <enabled>true</enabled>
-    </classAccesses><classAccesses>
         <apexClass>agf__ADM_AdditionalFieldsController</apexClass>
         <enabled>true</enabled>
     </classAccesses><classAccesses>
@@ -10263,7 +10260,10 @@
     </userPermissions><userPermissions>
         <enabled>true</enabled>
         <name>ViewHelpLink</name>
-    </userPermissions><userPermissions>
+    </userPermissions><classAccesses>
+        <apexClass>agf__ADM_AddWorkToSprintController</apexClass>
+        <enabled>true</enabled>
+    </classAccesses><userPermissions>
         <enabled>true</enabled>
         <name>ViewSetup</name>
     </userPermissions></Profile>
