@@ -1,4 +1,8 @@
-﻿<?xml version="1.0" encoding="utf-8"?><Profile xmlns="http://soap.sforce.com/2006/04/metadata"><custom>false</custom><userLicense>Salesforce</userLicense><classAccesses>
+﻿<?xml version="1.0" encoding="utf-8"?><Profile xmlns="http://soap.sforce.com/2006/04/metadata"><custom>false</custom><userLicense>Salesforce</userLicense>
+<pageAccesses>
+        <apexPage>agf__ADM_InvestigationEdit</apexPage>
+        <enabled>true</enabled>
+    <classAccesses></pageAccesses>
         <apexClass>CC_Sketch__DrawVFController</apexClass>
         <enabled>true</enabled>
     </classAccesses><classAccesses>
@@ -1435,10 +1439,8 @@
     </pageAccesses><pageAccesses>
         <apexPage>agf__ADM_InvestigationDetailSds</apexPage>
         <enabled>true</enabled>
-    </pageAccesses><pageAccesses>
-        <apexPage>agf__ADM_InvestigationEdit</apexPage>
-        <enabled>true</enabled>
-    </pageAccesses><pageAccesses>
+    </pageAccesses>
+<pageAccesses>
         <apexPage>agf__ADM_InvestigationEditSds</apexPage>
         <enabled>true</enabled>
     </pageAccesses><pageAccesses>
