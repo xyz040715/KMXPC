@@ -2,6 +2,9 @@
         <apexClass>CC_Sketch__DrawVFController</apexClass>
         <enabled>true</enabled>
     </classAccesses><classAccesses>
+        <apexClass>agf__ADM_AddWorkToSprintController</apexClass>
+        <enabled>true</enabled>
+    </classAccesses><classAccesses>
         <apexClass>WarehouseDataInstall</apexClass>
         <enabled>true</enabled>
     </classAccesses><classAccesses>
@@ -10260,10 +10263,7 @@
     </userPermissions><userPermissions>
         <enabled>true</enabled>
         <name>ViewHelpLink</name>
-    </userPermissions><classAccesses>
-        <apexClass>agf__ADM_AddWorkToSprintController</apexClass>
-        <enabled>true</enabled>
-    </classAccesses><userPermissions>
+    </userPermissions><userPermissions>
         <enabled>true</enabled>
         <name>ViewSetup</name>
     </userPermissions></Profile>
