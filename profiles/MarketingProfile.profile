@@ -14,9 +14,6 @@
         <apexClass>agf__ADM_AddWorkToPrioritizerExtension</apexClass>
         <enabled>true</enabled>
     </classAccesses><classAccesses>
-        <apexClass>agf__ADM_AddWorkToPrioritizerExtensionTest</apexClass>
-        <enabled>true</enabled>
-    </classAccesses><classAccesses>
         <apexClass>agf__ADM_AddWorkToSprintController</apexClass>
         <enabled>true</enabled>
     </classAccesses><classAccesses>
@@ -38,10 +35,16 @@
         <apexClass>agf__ADM_ApplicationApprover</apexClass>
         <enabled>true</enabled>
     </classAccesses><classAccesses>
+        <apexClass>agf__ADM_AddWorkToPrioritizerExtensionTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses><classAccesses>
         <apexClass>agf__ADM_ApplicationApproverTests</apexClass>
         <enabled>true</enabled>
     </classAccesses><classAccesses>
         <apexClass>agf__ADM_ApplicationApprover_TriggerTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses><classAccesses>
+        <apexClass>xyz__ADM_AddWorkToPrioritizerExtensionTest</apexClass>
         <enabled>true</enabled>
     </classAccesses><classAccesses>
         <apexClass>agf__ADM_ApplicationException</apexClass>
