@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?><Profile xmlns="http://soap.sforce.com/2006/04/metadata"><custom>false</custom><userLicense>Salesforce</userLicense><classAccesses>
         <apexClass>CC_Sketch__DrawVFController</apexClass>
         <enabled>true</enabled>
-    </classAccesses><classAccesses>
+	</classAccesses>
+	<classAccesses>
+        <apexClass>agf__ADM_AddWorkToSprintController</apexClass>
+        <enabled>true</enabled>
+	</classAccesses>
+	<classAccesses>
         <apexClass>WarehouseDataInstall</apexClass>
         <enabled>true</enabled>
     </classAccesses><classAccesses>
@@ -10260,10 +10265,8 @@
     </userPermissions><userPermissions>
         <enabled>true</enabled>
         <name>ViewHelpLink</name>
-    </userPermissions><classAccesses>
-        <apexClass>agf__ADM_AddWorkToSprintController</apexClass>
-        <enabled>true</enabled>
-    </classAccesses><userPermissions>
+	</userPermissions>
+	<userPermissions>
         <enabled>true</enabled>
         <name>ViewSetup</name>
     </userPermissions></Profile>
