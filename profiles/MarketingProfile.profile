@@ -1,7 +1,8 @@
-﻿<?xml version="1.0" encoding="utf-8"?><Profile xmlns="http://soap.sforce.com/2006/04/metadata"><custom>false</custom><userLicense>Salesforce</userLicense><pageAccesses>
+﻿<?xml version="1.0" encoding="utf-8"?><Profile xmlns="http://soap.sforce.com/2006/04/metadata"><custom>false</custom><userLicense>Salesforce</userLicense>
+ <pageAccesses>
         <apexPage>agf__ADM_InvestigationEdit</apexPage>
         <enabled>true</enabled>
-    <classAccesses></pageAccesses>
+   </pageAccesses><classAccesses>
         <apexClass>CC_Sketch__DrawVFController</apexClass>
         <enabled>true</enabled>
     </classAccesses><classAccesses>
