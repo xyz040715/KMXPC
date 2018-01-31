@@ -14,6 +14,9 @@
         <apexClass>agf__ADM_AddWorkToPrioritizerExtension</apexClass>
         <enabled>true</enabled>
     </classAccesses><classAccesses>
+        <apexClass>xyz__ADM_AddWorkToSprintController</apexClass>
+        <enabled>true</enabled>
+    </classAccesses><classAccesses>
         <apexClass>agf__ADM_AddWorkToSprintController</apexClass>
         <enabled>true</enabled>
     </classAccesses><classAccesses>
