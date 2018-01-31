@@ -2,9 +2,6 @@
         <apexClass>CC_Sketch__DrawVFController</apexClass>
         <enabled>true</enabled>
     </classAccesses><classAccesses>
-        <apexClass>agf__ADM_AddWorkToSprintController</apexClass>
-        <enabled>true</enabled>
-    </classAccesses><classAccesses>
         <apexClass>WarehouseDataInstall</apexClass>
         <enabled>true</enabled>
     </classAccesses><classAccesses>
@@ -12,6 +9,9 @@
         <enabled>true</enabled>
     </classAccesses><classAccesses>
         <apexClass>agf__ADM_AddWorkToPrioritizerExtension</apexClass>
+        <enabled>true</enabled>
+    </classAccesses><classAccesses>
+        <apexClass>agf__ADM_AddWorkToSprintController</apexClass>
         <enabled>true</enabled>
     </classAccesses><classAccesses>
         <apexClass>agf__ADM_AddWorkToPrioritizerExtensionTest</apexClass>
