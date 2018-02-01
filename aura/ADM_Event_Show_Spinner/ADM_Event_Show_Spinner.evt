@@ -1,3 +1,0 @@
-<aura:event type="APPLICATION" description="Show the spinner">
-    <aura:attribute name="show" type="Boolean"/>
-</aura:event>

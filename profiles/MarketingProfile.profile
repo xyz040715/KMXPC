@@ -1,4 +1,7 @@
-<?xml version="1.0" encoding="utf-8"?><Profile xmlns="http://soap.sforce.com/2006/04/metadata"><custom>false</custom><userLicense>Salesforce</userLicense><classAccesses>
+﻿<?xml version="1.0" encoding="utf-8"?><Profile xmlns="http://soap.sforce.com/2006/04/metadata"><custom>false</custom><userLicense>Salesforce</userLicense><pageAccesses>
+        <apexPage>agf__ADM_InvestigationEdit</apexPage>
+        <enabled>true</enabled>
+    </pageAccesses><classAccesses>
         <apexClass>CC_Sketch__DrawVFController</apexClass>
         <enabled>true</enabled>
 	</classAccesses>
@@ -16,7 +19,7 @@
         <apexClass>agf__ADM_AddWorkToPrioritizerExtension</apexClass>
         <enabled>true</enabled>
     </classAccesses><classAccesses>
-        <apexClass>agf__ADM_AddWorkToPrioritizerExtensionTest</apexClass>
+        <apexClass>agf__ADM_AddWorkToSprintController</apexClass>
         <enabled>true</enabled>
     </classAccesses><classAccesses>
         <apexClass>agf__ADM_AdditionalFieldsController</apexClass>
@@ -37,10 +40,16 @@
         <apexClass>agf__ADM_ApplicationApprover</apexClass>
         <enabled>true</enabled>
     </classAccesses><classAccesses>
+        <apexClass>agf__ADM_AddWorkToPrioritizerExtensionTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses><classAccesses>
         <apexClass>agf__ADM_ApplicationApproverTests</apexClass>
         <enabled>true</enabled>
     </classAccesses><classAccesses>
         <apexClass>agf__ADM_ApplicationApprover_TriggerTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses><classAccesses>
+        <apexClass>xyz__ADM_AddWorkToPrioritizerExtensionTest</apexClass>
         <enabled>true</enabled>
     </classAccesses><classAccesses>
         <apexClass>agf__ADM_ApplicationException</apexClass>
@@ -1437,10 +1446,8 @@
     </pageAccesses><pageAccesses>
         <apexPage>agf__ADM_InvestigationDetailSds</apexPage>
         <enabled>true</enabled>
-    </pageAccesses><pageAccesses>
-        <apexPage>agf__ADM_InvestigationEdit</apexPage>
-        <enabled>true</enabled>
-    </pageAccesses><pageAccesses>
+    </pageAccesses>
+<pageAccesses>
         <apexPage>agf__ADM_InvestigationEditSds</apexPage>
         <enabled>true</enabled>
     </pageAccesses><pageAccesses>
@@ -1943,6 +1950,14 @@
     </fieldPermissions><fieldPermissions>
         <editable>false</editable>
         <field>Account.DandbCompanyId</field>
+        <readable>true</readable>
+    </fieldPermissions><fieldPermissions>
+        <editable>true</editable>
+        <field>Account.Data_Quality_Description__c</field>
+        <readable>true</readable>
+    </fieldPermissions><fieldPermissions>
+        <editable>true</editable>
+        <field>Account.Data_Quality_Score__c</field>
         <readable>true</readable>
     </fieldPermissions><fieldPermissions>
         <editable>true</editable>
@@ -9128,14 +9143,6 @@
         <editable>true</editable>
         <field>mmeWord__c.mmeWordDomain__c</field>
         <readable>true</readable>
-    </fieldPermissions><fieldPermissions>
-        <editable>false</editable>
-        <field>Account.Data_Quality_Description__c</field>
-        <readable>true</readable>
-    </fieldPermissions><fieldPermissions>
-        <editable>false</editable>
-        <field>Account.Data_Quality_Score__c</field>
-        <readable>true</readable>
     </fieldPermissions><layoutAssignments>
         <layout>Account-Account Layout</layout>
     </layoutAssignments><layoutAssignments>
@@ -10265,8 +10272,7 @@
     </userPermissions><userPermissions>
         <enabled>true</enabled>
         <name>ViewHelpLink</name>
-	</userPermissions>
-	<userPermissions>
+    </userPermissions><userPermissions>
         <enabled>true</enabled>
         <name>ViewSetup</name>
     </userPermissions></Profile>
