@@ -13,10 +13,10 @@
         <apexClass>WarehouseDataInstall</apexClass>
         <enabled>true</enabled>
     </classAccesses><classAccesses>
-        <apexClass>agf__ADM_AcceptanceCriterionCloner</apexClass>
+        <apexClass>agf__ADM_AddWorkToPrioritizerExtension</apexClass>
         <enabled>true</enabled>
     </classAccesses><classAccesses>
-        <apexClass>agf__ADM_AddWorkToPrioritizerExtension</apexClass>
+        <apexClass>agf__ADM_AcceptanceCriterionCloner</apexClass>
         <enabled>true</enabled>
     </classAccesses><classAccesses>
         <apexClass>agf__ADM_AddWorkToSprintController</apexClass>
