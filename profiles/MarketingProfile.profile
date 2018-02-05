@@ -16,9 +16,6 @@
         <apexClass>agf__ADM_AddWorkToPrioritizerExtension</apexClass>
         <enabled>true</enabled>
     </classAccesses><classAccesses>
-        <apexClass>agf__ADM_AcceptanceCriterionCloner</apexClass>
-        <enabled>true</enabled>
-    </classAccesses><classAccesses>
         <apexClass>agf__ADM_AddWorkToSprintController</apexClass>
         <enabled>true</enabled>
     </classAccesses><classAccesses>
@@ -26,6 +23,9 @@
         <enabled>true</enabled>
     </classAccesses><classAccesses>
         <apexClass>agf__ADM_AdditionalFieldsControllerTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses><classAccesses>
+        <apexClass>agf__ADM_AcceptanceCriterionCloner</apexClass>
         <enabled>true</enabled>
     </classAccesses><classAccesses>
         <apexClass>agf__ADM_AgeOfWorkTests</apexClass>
