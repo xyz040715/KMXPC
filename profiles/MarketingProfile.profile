@@ -13,9 +13,6 @@
         <apexClass>WarehouseDataInstall</apexClass>
         <enabled>true</enabled>
     </classAccesses><classAccesses>
-        <apexClass>agf__ADM_AddWorkToPrioritizerExtension</apexClass>
-        <enabled>true</enabled>
-    </classAccesses><classAccesses>
         <apexClass>agf__ADM_AcceptanceCriterionCloner</apexClass>
         <enabled>true</enabled>
     </classAccesses><classAccesses>
@@ -41,6 +38,9 @@
         <enabled>true</enabled>
     </classAccesses><classAccesses>
         <apexClass>agf__ADM_AddWorkToPrioritizerExtensionTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses><classAccesses>
+        <apexClass>agf__ADM_AddWorkToPrioritizerExtension</apexClass>
         <enabled>true</enabled>
     </classAccesses><classAccesses>
         <apexClass>agf__ADM_ApplicationApproverTests</apexClass>
