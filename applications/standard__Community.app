@@ -21,4 +21,5 @@
     <tab>Subject__c</tab>
     <tab>IndividualElite__c</tab>
     <tab>EliteAssociation__c</tab>
+    <tab>repoevent__c</tab>
 </CustomApplication>

@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?><Profile xmlns="http://soap.sforce.com/2006/04/metadata"><custom>false</custom><userLicense>Chatter External</userLicense><applicationVisibilities>
+<?xml version="1.0" encoding="utf-8"?><Profile xmlns="http://soap.sforce.com/2006/04/metadata"><custom>false</custom><userLicense>Chatter External</userLicense><applicationVisibilities>
         <application>Armor_Decor_Console</application>
         <default>false</default>
         <visible>false</visible>
@@ -2249,6 +2249,8 @@
         <layout>yhCustomMetadataType__mdt-yhCustomMetadataObjectType Layout</layout>
     </layoutAssignments><layoutAssignments>
         <layout>yhObject__c-yhObject Layout</layout>
+    </layoutAssignments><layoutAssignments>
+        <layout>repoevent__c-repoevent Layout</layout>
     </layoutAssignments><recordTypeVisibilities>
         <default>false</default>
         <recordType>Account.CSGAccount</recordType>
@@ -2689,6 +2691,9 @@
         <visibility>Hidden</visibility>
     </tabVisibilities><tabVisibilities>
         <tab>yhTestGmail</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities><tabVisibilities>
+        <tab>repoevent__c</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities><userPermissions>
         <enabled>true</enabled>

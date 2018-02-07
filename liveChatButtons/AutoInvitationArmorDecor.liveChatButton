@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LiveChatButton xmlns="http://soap.sforce.com/2006/04/metadata">
+    <animation>Slide</animation>
+    <autoGreeting>Hello {!LiveAgent_VisitorName},  welcome to Armor Decor online chat.
+My name is  {!User_FirstName} {!User_LastName}
+How can I help you today?</autoGreeting>
+    <deployments>
+        <deployment>Chat Deployment</deployment>
+    </deployments>
+    <enableQueue>false</enableQueue>
+    <inviteEndPosition>BottomRight</inviteEndPosition>
+    <inviteImage>OnlineButton</inviteImage>
+    <inviteStartPosition>TopLeftLeft</inviteStartPosition>
+    <isActive>true</isActive>
+    <label>AutoInvitationArmorDecor</label>
+    <optionsCustomRoutingIsEnabled>false</optionsCustomRoutingIsEnabled>
+    <optionsHasChasitorIdleTimeout>false</optionsHasChasitorIdleTimeout>
+    <optionsHasInviteAfterAccept>false</optionsHasInviteAfterAccept>
+    <optionsHasInviteAfterReject>false</optionsHasInviteAfterReject>
+    <optionsHasRerouteDeclinedRequest>false</optionsHasRerouteDeclinedRequest>
+    <optionsIsAutoAccept>false</optionsIsAutoAccept>
+    <optionsIsInviteAutoRemove>false</optionsIsInviteAutoRemove>
+    <postChatPage>helloWorld</postChatPage>
+    <preChatFormPage>hello</preChatFormPage>
+    <routingType>Choice</routingType>
+    <site>liveagentchatsite</site>
+    <skills>
+        <skill>Support</skill>
+    </skills>
+    <type>Invite</type>
+    <windowLanguage>zh_CN</windowLanguage>
+</LiveChatButton>

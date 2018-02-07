@@ -1,0 +1,243 @@
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObject xmlns="http://soap.sforce.com/2006/04/metadata"><actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>Follow</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides><allowInChatterGroups>false</allowInChatterGroups><compactLayoutAssignment>SYSTEM</compactLayoutAssignment><deploymentStatus>Deployed</deploymentStatus><deprecated>false</deprecated><enableActivities>false</enableActivities><enableBulkApi>true</enableBulkApi><enableEnhancedLookup>true</enableEnhancedLookup><enableFeeds>false</enableFeeds><enableHistory>true</enableHistory><enableReports>true</enableReports><enableSearch>true</enableSearch><enableSharing>true</enableSharing><enableStreamingApi>true</enableStreamingApi><label>Theme</label><nameField>
+        <label>Theme Name</label>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+    </nameField><pluralLabel>Themes</pluralLabel><searchLayouts>
+        <customTabListAdditionalFields>agf__Scrum_Team__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>agf__Description__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>OWNER.ALIAS</customTabListAdditionalFields>
+        <lookupDialogsAdditionalFields>agf__Scrum_Team__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>agf__Description__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>OWNER.ALIAS</lookupDialogsAdditionalFields>
+        <searchFilterFields>agf__Scrum_Team__c</searchFilterFields>
+        <searchResultsAdditionalFields>agf__Scrum_Team__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>agf__Description__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>OWNER.ALIAS</searchResultsAdditionalFields>
+    </searchLayouts><sharingModel>ReadWrite</sharingModel><listViews>
+        <fullName>agf__ADMThemes</fullName>
+        <columns>NAME</columns>
+        <columns>agf__Scrum_Team__c</columns>
+        <columns>CREATED_DATE</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>NAME</field>
+            <operation>startsWith</operation>
+            <value>ADM</value>
+        </filters>
+        <filters>
+            <field>agf__Scrum_Team__c</field>
+            <operation>equals</operation>
+            <value>ADM Team</value>
+        </filters>
+        <label>ADM Themes</label>
+    </listViews><listViews>
+        <fullName>agf__Agent_Console_2_0_Themes</fullName>
+        <columns>NAME</columns>
+        <columns>agf__Description__c</columns>
+        <columns>agf__Scrum_Team__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>NAME</field>
+            <operation>contains</operation>
+            <value>Agent Console 2.0</value>
+        </filters>
+        <filters>
+            <field>agf__Scrum_Team__c</field>
+            <operation>equals</operation>
+            <value>CSS UI</value>
+        </filters>
+        <label>Agent Console 2.0 Themes</label>
+    </listViews><listViews>
+        <fullName>agf__All</fullName>
+        <columns>NAME</columns>
+        <columns>agf__Description__c</columns>
+        <columns>agf__Scrum_Team__c</columns>
+        <columns>OWNER.ALIAS</columns>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews><listViews>
+        <fullName>agf__AppStoreThemes</fullName>
+        <booleanFilter>1</booleanFilter>
+        <columns>agf__Scrum_Team__c</columns>
+        <columns>NAME</columns>
+        <columns>agf__Description__c</columns>
+        <columns>agf__Theme_Rank__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>agf__Scrum_Team__c</field>
+            <operation>equals</operation>
+            <value>Opportunity to Quote,Order to Cash,Webstore</value>
+        </filters>
+        <label>AppStore Themes</label>
+    </listViews><listViews>
+        <fullName>agf__ClientEngineering</fullName>
+        <booleanFilter>1 OR 2</booleanFilter>
+        <columns>NAME</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>NAME</field>
+            <operation>startsWith</operation>
+            <value>CE:</value>
+        </filters>
+        <filters>
+            <field>NAME</field>
+            <operation>startsWith</operation>
+            <value>DSW</value>
+        </filters>
+        <label>Client Engineering</label>
+    </listViews><listViews>
+        <fullName>agf__Dreamforce_App_Themes</fullName>
+        <columns>NAME</columns>
+        <columns>agf__Description__c</columns>
+        <columns>OWNER.LAST_NAME</columns>
+        <columns>agf__Theme_Rank__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>agf__Scrum_Team__c</field>
+            <operation>equals</operation>
+            <value>Dreamforce App</value>
+        </filters>
+        <label>Dreamforce App Themes</label>
+    </listViews><listViews>
+        <fullName>agf__FinSrv146WMV4</fullName>
+        <columns>NAME</columns>
+        <columns>agf__Description__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>OWNER.LAST_NAME</field>
+            <operation>equals</operation>
+            <value>Yerkes,Abramowitz</value>
+        </filters>
+        <label>FinSrv 146.WM.V4</label>
+    </listViews><listViews>
+        <fullName>agf__GUSTeamThemes</fullName>
+        <columns>NAME</columns>
+        <columns>agf__Description__c</columns>
+        <columns>OWNER.FIRST_NAME</columns>
+        <columns>OWNER.LAST_NAME</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>NAME</field>
+            <operation>startsWith</operation>
+            <value>GUS</value>
+        </filters>
+        <label>GUS Team Themes</label>
+    </listViews><listViews>
+        <fullName>agf__IDE</fullName>
+        <columns>NAME</columns>
+        <columns>agf__Description__c</columns>
+        <columns>agf__Theme_Rank__c</columns>
+        <columns>OWNER.ALIAS</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>agf__Scrum_Team__c</field>
+            <operation>equals</operation>
+            <value>IDE</value>
+        </filters>
+        <label>IDE</label>
+    </listViews><listViews>
+        <fullName>agf__MonitoringandManagement</fullName>
+        <columns>NAME</columns>
+        <columns>agf__Description__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>NAME</field>
+            <operation>contains</operation>
+            <value>M&amp;M</value>
+        </filters>
+        <label>Monitoring and Management</label>
+    </listViews><listViews>
+        <fullName>agf__Oppty2Quote_Themes</fullName>
+        <columns>agf__Theme_Rank__c</columns>
+        <columns>NAME</columns>
+        <columns>agf__Description__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>agf__Scrum_Team__c</field>
+            <operation>equals</operation>
+            <value>Opportunity to Quote</value>
+        </filters>
+        <label>Oppty2Quote Themes</label>
+    </listViews><listViews>
+        <fullName>agf__Profiles_and_Feeds</fullName>
+        <columns>NAME</columns>
+        <columns>agf__Description__c</columns>
+        <columns>agf__Scrum_Team__c</columns>
+        <columns>OWNER.ALIAS</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>agf__Scrum_Team__c</field>
+            <operation>equals</operation>
+            <value>Profiles and Feeds</value>
+        </filters>
+        <label>Profiles and Feeds</label>
+    </listViews><listViews>
+        <fullName>agf__ScrumRolloutTeamThemes</fullName>
+        <columns>NAME</columns>
+        <columns>agf__Description__c</columns>
+        <columns>OWNER.FIRST_NAME</columns>
+        <columns>OWNER.LAST_NAME</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>NAME</field>
+            <operation>startsWith</operation>
+            <value>SRT</value>
+        </filters>
+        <label>Scrum Rollout Team Themes</label>
+    </listViews><listViews>
+        <fullName>agf__UpgradeandPackaging</fullName>
+        <columns>NAME</columns>
+        <columns>agf__Description__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>NAME</field>
+            <operation>startsWith</operation>
+            <value>PKG</value>
+        </filters>
+        <label>Upgrade and Packaging</label>
+    </listViews><listViews>
+        <fullName>agf__Web_Development</fullName>
+        <columns>NAME</columns>
+        <columns>agf__Description__c</columns>
+        <columns>CREATEDBY_USER</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>agf__Scrum_Team__c</field>
+            <operation>equals</operation>
+            <value>Web Development</value>
+        </filters>
+        <label>Web Development</label>
+    </listViews></CustomObject>

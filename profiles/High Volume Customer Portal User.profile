@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?><Profile xmlns="http://soap.sforce.com/2006/04/metadata"><custom>false</custom><userLicense>High Volume Customer Portal</userLicense><classAccesses>
+<?xml version="1.0" encoding="utf-8"?><Profile xmlns="http://soap.sforce.com/2006/04/metadata"><custom>false</custom><userLicense>High Volume Customer Portal</userLicense><classAccesses>
         <apexClass>agf__ADM_AcceptanceCriterionCloner</apexClass>
         <enabled>true</enabled>
     </classAccesses><classAccesses>
@@ -1850,10 +1850,6 @@
         <default>false</default>
         <visible>false</visible>
     </applicationVisibilities><applicationVisibilities>
-        <application>standard__Service</application>
-        <default>false</default>
-        <visible>false</visible>
-    </applicationVisibilities><applicationVisibilities>
         <application>standard__ServiceConsole</application>
         <default>false</default>
         <visible>false</visible>
@@ -1869,6 +1865,10 @@
         <application>yhSLDS_ContactsApp</application>
         <default>false</default>
         <visible>false</visible>
+    </applicationVisibilities><applicationVisibilities>
+        <application>standard__Service</application>
+        <default>false</default>
+        <visible>true</visible>
     </applicationVisibilities><externalDataSourceAccesses>
         <enabled>false</enabled>
         <externalDataSource>box_com</externalDataSource>
@@ -4248,6 +4248,8 @@
         <layout>yhCustomMetadataType__mdt-yhCustomMetadataObjectType Layout</layout>
     </layoutAssignments><layoutAssignments>
         <layout>yhObject__c-yhObject Layout</layout>
+    </layoutAssignments><layoutAssignments>
+        <layout>repoevent__c-repoevent Layout</layout>
     </layoutAssignments><recordTypeVisibilities>
         <default>false</default>
         <recordType>Account.CSGAccount</recordType>
@@ -4689,6 +4691,9 @@
     </tabVisibilities><tabVisibilities>
         <tab>yhTestGmail</tab>
         <visibility>Hidden</visibility>
+    </tabVisibilities><tabVisibilities>
+        <tab>repoevent__c</tab>
+        <visibility>DefaultOn</visibility>
     </tabVisibilities><userPermissions>
         <enabled>true</enabled>
         <name>AddDirectMessageMembers</name>

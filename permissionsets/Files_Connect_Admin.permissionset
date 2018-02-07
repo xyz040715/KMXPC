@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?><PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata"><hasActivationRequired>false</hasActivationRequired><label>Files Connect Admin</label><applicationVisibilities>
+<?xml version="1.0" encoding="utf-8"?><PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata"><hasActivationRequired>false</hasActivationRequired><label>Files Connect Admin</label><applicationVisibilities>
         <application>Armor_Decor_Console</application>
         <visible>false</visible>
     </applicationVisibilities><applicationVisibilities>
@@ -417,6 +417,9 @@
         <visibility>None</visibility>
     </tabSettings><tabSettings>
         <tab>yhTestGmail</tab>
+        <visibility>None</visibility>
+    </tabSettings><tabSettings>
+        <tab>repoevent__c</tab>
         <visibility>None</visibility>
     </tabSettings><userPermissions>
         <enabled>true</enabled>

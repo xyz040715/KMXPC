@@ -186,6 +186,7 @@
     <tab>Subject__c</tab>
     <tab>IndividualElite__c</tab>
     <tab>EliteAssociation__c</tab>
+    <tab>repoevent__c</tab>
     <workspaceMappings>
         <mapping>
             <tab>Appointments__c</tab>
@@ -216,6 +217,9 @@
         </mapping>
         <mapping>
             <tab>mmeWord__c</tab>
+        </mapping>
+        <mapping>
+            <tab>repoevent__c</tab>
         </mapping>
         <mapping>
             <tab>standard-Account</tab>

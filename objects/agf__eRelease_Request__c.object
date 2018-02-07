@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObject xmlns="http://soap.sforce.com/2006/04/metadata"><actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>Follow</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides><allowInChatterGroups>false</allowInChatterGroups><compactLayoutAssignment>SYSTEM</compactLayoutAssignment><deploymentStatus>Deployed</deploymentStatus><deprecated>false</deprecated><enableActivities>false</enableActivities><enableBulkApi>true</enableBulkApi><enableEnhancedLookup>false</enableEnhancedLookup><enableFeeds>true</enableFeeds><enableHistory>true</enableHistory><enableReports>true</enableReports><enableSearch>true</enableSearch><enableSharing>true</enableSharing><enableStreamingApi>true</enableStreamingApi><label>eRelease Request</label><nameField>
+        <displayFormat>ERR-{00000}</displayFormat>
+        <label>eRelease Request ID</label>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>AutoNumber</type>
+    </nameField><pluralLabel>eRelease Requests</pluralLabel><searchLayouts>
+        <customTabListAdditionalFields>agf__Application__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>agf__eRelease_Status__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>agf__Bug_ID__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>agf__Bug_Subject__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>agf__Scheduled_Build__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>agf__Explanation_of_eRelease__c</customTabListAdditionalFields>
+        <searchResultsAdditionalFields>agf__Application__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>agf__eRelease_Status__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>agf__Bug_ID__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>agf__Bug_Subject__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>agf__Explanation_of_eRelease__c</searchResultsAdditionalFields>
+    </searchLayouts><sharingModel>ReadWrite</sharingModel><startsWith>Vowel</startsWith><listViews>
+        <fullName>agf__All</fullName>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews></CustomObject>

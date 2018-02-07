@@ -1,0 +1,218 @@
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObject xmlns="http://soap.sforce.com/2006/04/metadata"><actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>Follow</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides><allowInChatterGroups>false</allowInChatterGroups><compactLayoutAssignment>SYSTEM</compactLayoutAssignment><deploymentStatus>Deployed</deploymentStatus><deprecated>false</deprecated><description>Used to track dependencies between teams for a given  release</description><enableActivities>false</enableActivities><enableBulkApi>true</enableBulkApi><enableEnhancedLookup>true</enableEnhancedLookup><enableFeeds>true</enableFeeds><enableHistory>true</enableHistory><enableReports>true</enableReports><enableSearch>true</enableSearch><enableSharing>true</enableSharing><enableStreamingApi>true</enableStreamingApi><label>Team Dependency</label><nameField>
+        <displayFormat>TD-{0000000}</displayFormat>
+        <label>Team Dependency Name</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>AutoNumber</type>
+    </nameField><pluralLabel>Team Dependencies</pluralLabel><searchLayouts>
+        <customTabListAdditionalFields>agf__Dependent_Team__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>agf__Provider_Team__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>agf__Deliverable__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>agf__Dependency_Status__c</customTabListAdditionalFields>
+        <excludedStandardButtons>Accept</excludedStandardButtons>
+        <excludedStandardButtons>ChangeOwner</excludedStandardButtons>
+        <lookupDialogsAdditionalFields>agf__Dependent_Team__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>agf__Provider_Team__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>agf__Deliverable__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>agf__Dependency_Status__c</lookupDialogsAdditionalFields>
+        <searchResultsAdditionalFields>agf__Dependent_Team__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>agf__Provider_Team__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>agf__Deliverable__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>agf__Dependency_Status__c</searchResultsAdditionalFields>
+    </searchLayouts><sharingModel>ReadWrite</sharingModel><listViews>
+        <fullName>agf__All</fullName>
+        <columns>agf__Dependent_Team__c</columns>
+        <columns>agf__Provider_Team__c</columns>
+        <columns>agf__Deliverable__c</columns>
+        <columns>NAME</columns>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews><listViews>
+        <fullName>agf__CSS_UI_Dependencies</fullName>
+        <columns>agf__Deliverable__c</columns>
+        <columns>NAME</columns>
+        <columns>agf__Provider_Team__c</columns>
+        <columns>agf__Dependency_Status__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>agf__Dependent_Team__c</field>
+            <operation>equals</operation>
+            <value>CSS UI</value>
+        </filters>
+        <label>CSS UI Dependencies</label>
+    </listViews><listViews>
+        <fullName>agf__Oppty2Quote_Dependencies</fullName>
+        <booleanFilter>1 OR 2</booleanFilter>
+        <columns>NAME</columns>
+        <columns>agf__Dependency_Status__c</columns>
+        <columns>agf__Dependent_Team__c</columns>
+        <columns>agf__Provider_Team__c</columns>
+        <columns>agf__Deliverable__c</columns>
+        <columns>agf__Notes__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>agf__Dependent_Team__c</field>
+            <operation>equals</operation>
+            <value>Opportunity to Quote</value>
+        </filters>
+        <filters>
+            <field>agf__Provider_Team__c</field>
+            <operation>equals</operation>
+            <value>Opportunity to Quote</value>
+        </filters>
+        <label>Oppty2Quote Dependencies</label>
+    </listViews><listViews>
+        <fullName>agf__SFA_UI_Dependencies_on_other_Teams</fullName>
+        <columns>NAME</columns>
+        <columns>agf__Deliverable__c</columns>
+        <columns>agf__Notes__c</columns>
+        <columns>agf__Deliver_By__c</columns>
+        <columns>agf__Provider_Team__c</columns>
+        <columns>agf__Dependent_User_Story__c</columns>
+        <columns>agf__Provider_User_Story__c</columns>
+        <columns>agf__Dependency_Status__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>agf__Dependent_Team__c</field>
+            <operation>equals</operation>
+            <value>SFA UI</value>
+        </filters>
+        <label>162 SFA UI Dependencies Needed</label>
+    </listViews><listViews>
+        <fullName>agf__Webstore_Dependencies</fullName>
+        <booleanFilter>1 OR 2</booleanFilter>
+        <columns>NAME</columns>
+        <columns>agf__Deliverable__c</columns>
+        <columns>agf__Dependency_Status__c</columns>
+        <columns>agf__Deliver_By__c</columns>
+        <columns>agf__Notes__c</columns>
+        <columns>agf__Provider_Team__c</columns>
+        <columns>agf__Dependent_Team__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>agf__Dependent_Team__c</field>
+            <operation>equals</operation>
+            <value>Webstore</value>
+        </filters>
+        <filters>
+            <field>agf__Provider_Team__c</field>
+            <operation>equals</operation>
+            <value>Webstore</value>
+        </filters>
+        <label>Webstore Dependencies</label>
+    </listViews><listViews>
+        <fullName>agf__X160_Team_Dependencies</fullName>
+        <columns>NAME</columns>
+        <columns>agf__Deliverable__c</columns>
+        <columns>agf__Dependency_Status__c</columns>
+        <columns>agf__Deliver_By__c</columns>
+        <columns>agf__Provider_Team__c</columns>
+        <columns>agf__Dependent_Team__c</columns>
+        <columns>agf__Provider_User_Story__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>160 Team Dependencies</label>
+    </listViews><listViews>
+        <fullName>agf__X162_Core_Team_Dependencies</fullName>
+        <columns>NAME</columns>
+        <columns>agf__Dependent_Team__c</columns>
+        <columns>agf__Deliverable__c</columns>
+        <columns>agf__Deliver_By__c</columns>
+        <columns>agf__Provider_Team__c</columns>
+        <columns>agf__Provider_User_Story__c</columns>
+        <columns>agf__Dependency_Status__c</columns>
+        <filterScope>Mine</filterScope>
+        <filters>
+            <field>agf__Dependent_Team__c</field>
+            <operation>equals</operation>
+            <value>Core Infrastructure</value>
+        </filters>
+        <label>162 Core Team Dependencies</label>
+    </listViews><listViews>
+        <fullName>agf__X162_Dependencies</fullName>
+        <columns>NAME</columns>
+        <columns>agf__Dependent_Team__c</columns>
+        <columns>agf__Deliverable__c</columns>
+        <columns>agf__Deliver_By__c</columns>
+        <columns>agf__Provider_Team__c</columns>
+        <columns>agf__Provider_User_Story__c</columns>
+        <columns>agf__Dependency_Status__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>162 Dependencies</label>
+    </listViews><listViews>
+        <fullName>agf__X162_SFA_UI_Dependencies_Needed</fullName>
+        <columns>NAME</columns>
+        <columns>agf__Deliverable__c</columns>
+        <columns>agf__Notes__c</columns>
+        <columns>agf__Deliver_By__c</columns>
+        <columns>agf__Dependency_Status__c</columns>
+        <columns>agf__Dependent_User_Story__c</columns>
+        <columns>agf__Provider_Team__c</columns>
+        <columns>agf__Provider_User_Story__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>agf__Dependent_Team__c</field>
+            <operation>equals</operation>
+            <value>SFA UI</value>
+        </filters>
+        <label>SFA UI Dependencies Needed</label>
+    </listViews><listViews>
+        <fullName>agf__X162_Team_Dependencies</fullName>
+        <columns>NAME</columns>
+        <columns>agf__Dependent_Team__c</columns>
+        <columns>agf__Deliverable__c</columns>
+        <columns>agf__Deliver_By__c</columns>
+        <columns>agf__Provider_Team__c</columns>
+        <columns>agf__Provider_User_Story__c</columns>
+        <columns>agf__Dependency_Status__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>162 Team Dependencies</label>
+    </listViews><listViews>
+        <fullName>agf__X162_Team_Dependencies1</fullName>
+        <columns>NAME</columns>
+        <columns>agf__Dependent_Team__c</columns>
+        <columns>agf__Deliverable__c</columns>
+        <columns>agf__Deliver_By__c</columns>
+        <columns>agf__Provider_Team__c</columns>
+        <columns>agf__Provider_User_Story__c</columns>
+        <columns>agf__Dependency_Status__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>agf__Dependent_Team__c</field>
+            <operation>contains</operation>
+            <value>Knowledge</value>
+        </filters>
+        <label>162 Knowledge Dependencies</label>
+    </listViews></CustomObject>

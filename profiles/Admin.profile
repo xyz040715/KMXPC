@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?><Profile xmlns="http://soap.sforce.com/2006/04/metadata"><custom>false</custom><userLicense>Salesforce</userLicense><classAccesses>
+<?xml version="1.0" encoding="utf-8"?><Profile xmlns="http://soap.sforce.com/2006/04/metadata"><custom>false</custom><userLicense>Salesforce</userLicense><classAccesses>
         <apexClass>AsyncPAonboardingSalesforceCom</apexClass>
         <enabled>true</enabled>
     </classAccesses><classAccesses>
@@ -1512,6 +1512,9 @@
         <enabled>true</enabled>
     </classAccesses><classAccesses>
         <apexClass>yhtestsampleCon</apexClass>
+        <enabled>true</enabled>
+    </classAccesses><classAccesses>
+        <apexClass>RESTRepoEventController</apexClass>
         <enabled>true</enabled>
     </classAccesses><pageAccesses>
         <apexPage>AnswersHome</apexPage>
@@ -9457,6 +9460,10 @@
         <editable>true</editable>
         <field>mmeWord__c.mmeWordDomain__c</field>
         <readable>true</readable>
+    </fieldPermissions><fieldPermissions>
+        <editable>true</editable>
+        <field>repoevent__c.original_form__c</field>
+        <readable>true</readable>
     </fieldPermissions><layoutAssignments>
         <layout>Account-CSGAccountLayout</layout>
     </layoutAssignments><layoutAssignments>
@@ -10007,6 +10014,8 @@
         <layout>yhCustomMetadataType__mdt-yhCustomMetadataObjectType Layout</layout>
     </layoutAssignments><layoutAssignments>
         <layout>yhObject__c-yhObject Layout</layout>
+    </layoutAssignments><layoutAssignments>
+        <layout>repoevent__c-repoevent Layout</layout>
     </layoutAssignments><recordTypeVisibilities>
         <default>false</default>
         <recordType>Account.CSGAccount</recordType>
@@ -10448,6 +10457,9 @@
         <visibility>DefaultOn</visibility>
     </tabVisibilities><tabVisibilities>
         <tab>yhTestGmail</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities><tabVisibilities>
+        <tab>repoevent__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities><userPermissions>
         <enabled>true</enabled>

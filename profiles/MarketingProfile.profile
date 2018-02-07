@@ -1,7 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?><Profile xmlns="http://soap.sforce.com/2006/04/metadata"><custom>false</custom><userLicense>Salesforce</userLicense><pageAccesses>
-        <apexPage>agf__ADM_InvestigationEdit</apexPage>
-        <enabled>true</enabled>
-    </pageAccesses><classAccesses>
+<?xml version="1.0" encoding="utf-8"?><Profile xmlns="http://soap.sforce.com/2006/04/metadata"><custom>false</custom><userLicense>Salesforce</userLicense><classAccesses>
         <apexClass>CC_Sketch__DrawVFController</apexClass>
         <enabled>true</enabled>
     </classAccesses><classAccesses>
@@ -1373,6 +1370,9 @@
         <apexClass>infografx__UsaMapChartControllerTest</apexClass>
         <enabled>true</enabled>
     </classAccesses><pageAccesses>
+        <apexPage>agf__ADM_InvestigationEdit</apexPage>
+        <enabled>true</enabled>
+    </pageAccesses><pageAccesses>
         <apexPage>CC_Sketch__DrawVF</apexPage>
         <enabled>true</enabled>
     </pageAccesses><pageAccesses>
@@ -1441,8 +1441,7 @@
     </pageAccesses><pageAccesses>
         <apexPage>agf__ADM_InvestigationDetailSds</apexPage>
         <enabled>true</enabled>
-    </pageAccesses>
-<pageAccesses>
+    </pageAccesses><pageAccesses>
         <apexPage>agf__ADM_InvestigationEditSds</apexPage>
         <enabled>true</enabled>
     </pageAccesses><pageAccesses>
@@ -1945,14 +1944,6 @@
     </fieldPermissions><fieldPermissions>
         <editable>false</editable>
         <field>Account.DandbCompanyId</field>
-        <readable>true</readable>
-    </fieldPermissions><fieldPermissions>
-        <editable>true</editable>
-        <field>Account.Data_Quality_Description__c</field>
-        <readable>true</readable>
-    </fieldPermissions><fieldPermissions>
-        <editable>true</editable>
-        <field>Account.Data_Quality_Score__c</field>
         <readable>true</readable>
     </fieldPermissions><fieldPermissions>
         <editable>true</editable>
@@ -9138,6 +9129,18 @@
         <editable>true</editable>
         <field>mmeWord__c.mmeWordDomain__c</field>
         <readable>true</readable>
+    </fieldPermissions><fieldPermissions>
+        <editable>false</editable>
+        <field>Account.Data_Quality_Description__c</field>
+        <readable>true</readable>
+    </fieldPermissions><fieldPermissions>
+        <editable>false</editable>
+        <field>Account.Data_Quality_Score__c</field>
+        <readable>true</readable>
+    </fieldPermissions><fieldPermissions>
+        <editable>true</editable>
+        <field>repoevent__c.original_form__c</field>
+        <readable>true</readable>
     </fieldPermissions><layoutAssignments>
         <layout>Account-Account Layout</layout>
     </layoutAssignments><layoutAssignments>
@@ -9688,6 +9691,8 @@
         <layout>yhCustomMetadataType__mdt-yhCustomMetadataObjectType Layout</layout>
     </layoutAssignments><layoutAssignments>
         <layout>yhObject__c-yhObject Layout</layout>
+    </layoutAssignments><layoutAssignments>
+        <layout>repoevent__c-repoevent Layout</layout>
     </layoutAssignments><recordTypeVisibilities>
         <default>false</default>
         <recordType>Account.CSGAccount</recordType>
@@ -10131,6 +10136,9 @@
         <visibility>DefaultOn</visibility>
     </tabVisibilities><tabVisibilities>
         <tab>yhTestGmail</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities><tabVisibilities>
+        <tab>repoevent__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities><userPermissions>
         <enabled>true</enabled>

@@ -1,0 +1,132 @@
+<apex:page standardStylesheets="false" sidebar="false" showHeader="false" controller="CC_Sketch.DrawVFController">
+    <html xmlns="http://www.w3.org/1999/xhtml" >
+    <head>
+        <title></title>
+        <style>
+            body,html{ height:100%}
+            #preview{ left:0; top:0; bottom:0; right:0; position:fixed; margin:auto; display:none; width:100%; height:100%; background:rgba(0,0,0,0.9); z-index:8}
+            #preview svg{ left:0; top:0; bottom:0; right:0; position:fixed; margin:auto; z-index:9 }
+            .Btn{ position:absolute; top:0; left:0; right:0; padding:10px; text-align:center; border-bottom:2px solid #009ddc; background:#eee}
+            #svgedit{ margin-top:55px; border:none}
+            *{ margin:0; padding:0}
+            input#name { width:200px; border: medium solid #49b9da; border-radius: 5px;  padding: 6px; }
+            button,cancelBtn {  background: #4DA74D none repeat scroll 0 0;  border: medium none;  border-radius: 5px; color: #fff;  font-weight: bold;  padding: 8px 20px;}
+           .cancelBtn { text-decoration:none; margin-left:5px;  background: #2D6BA0 none repeat scroll 0 0;  border: medium none;  border-radius: 5px; color: #fff;  font-weight: bold;  padding: 8px 20px;}
+           .outerwrapper{ height:100%}
+           .error{ width:100%;float:left; background:#f8f8f8; margin:0 auto; font-size:18px;}
+           .error h2{ padding:10px 20px; background:#00AFF0; color:#fff}
+           .error h3,.error p{ background: #555 none repeat scroll 0 0;  color: #fff;  display: block;     padding: 10px 20px;}
+           .error ul{list-style-type:none; margin:10px}
+           .error ul li{list-style-type:none;  float:left; width:100%; padding-top:10px; padding-bottom:10px}
+           .errorwrapper{ margin:0 auto; max-width:960px;}
+           .error img{max-width:100%; margin:10px 0}
+           li strong.step{ display:block; font-size:25px}
+           
+           
+           
+        </style>
+        <script type="text/javascript" src="{!URLFOR($Resource.methodDrawJs,'src/embedapi.js')}"></script>
+        <script type="text/javascript">
+            var svgCanvas = null;
+            function init_embed() {
+                var frame = document.getElementById('svgedit');
+                svgCanvas = new embedded_svg_edit(frame);
+                var doc;
+                doc = frame.contentDocument;
+                if (!doc){
+                    doc = frame.contentWindow.document;
+                }
+            }
+        
+            function handleSvgData(data, error) {
+                if (error){
+                alert('error ' + error);
+                }else { 
+                    document.getElementById("preview").innerHTML = data;
+                  document.getElementById("preview").style.display="block";
+                    var svg = document.querySelector( "svg" );
+                    var svgData = new XMLSerializer().serializeToString( svg );
+                    var canvas = document.createElement( "canvas" );
+                    var svgSize = svg.getBoundingClientRect();
+                    canvas.width = svgSize.width;
+                    canvas.height = svgSize.height;
+                    var ctx = canvas.getContext( "2d" );
+                    var img = document.createElement( "img" );
+                    img.setAttribute( "src", "data:image/svg+xml;base64," + btoa( svgData ) );
+                    img.onload = function() {
+                    ctx.drawImage( img, 0, 0 );
+                    console.log( canvas.toDataURL( "image/png" ) );
+                    document.getElementById("image").value = canvas.toDataURL( "image/png" );
+                };
+                }           
+        }
+        
+            function saveImage(){
+                if( document.getElementById("name").value !=''){
+                    saveSvg();
+                    setTimeout(function(){  saveAttachment(); }, 1000);
+                }else{alert('Please Enter the Name') }
+            }   
+            function saveSvg() {            
+             svgCanvas.getSvgString()(handleSvgData);
+            }
+        </script>
+    </head>
+        <body>
+        
+        <apex:outputPanel layout="block"  styleClass="errorwrapper" rendered="{!currenPageId==null}">
+        <div class="error">
+           <h2>Please Configure the App</h2>
+              <h3>  Follow few simple step  to configure App for an object [ Let&#39;s say Account ]</h3>
+             
+                <ul>
+                <li><strong class="step">Step 1:</strong>We can create a custom button by <strong>Setup > Customize >Select Object (Let’s say: Account) > Buttons, Links, and Actions > New Button or Link.</strong>
+                 Well, now we are on New Button or Link create page
+                    <apex:image value="{!URLFOR($Resource.CC_Sketch__methodDrawJs,'docImages/11.PNG')}"/>
+                    </li>
+                    <li><strong class="step">Step 2:</strong>
+                    Enter the <strong>Label and </strong><strong>Name</strong> and pick <strong>Detail Page Button etc</strong>. And then provide the url as shown in the following figure
+                    <apex:image value="{!URLFOR($Resource.CC_Sketch__methodDrawJs,'docImages/22.PNG')}"/>
+                    
+                   <strong> Note</strong>: <br/>Please change the <strong>Object.Id</strong> with your <strong>yourobject.id</strong>
+                   <br/><strong>Example For Account :</strong>  <strong>Url</strong> will be like this : <strong> /apex/CC_Sketch__DrawVF?id=&#123;&#33;Account.Id&#125;</strong>
+                   <br/><strong>Example For Contact:</strong>  <strong>Url</strong> will be like this : <strong> /apex/CC_Sketch__DrawVF?id=&#123;&#33;Contact.Id&#125;</strong>
+
+                    </li>
+                    <li><strong class="step">Step 3:</strong>
+                        Till now we have created a detail button for our Notes page.We will add the button to the object detail page using <strong>page layout</strong>
+                      <apex:image value="{!URLFOR($Resource.CC_Sketch__methodDrawJs,'docImages/33.PNG')}"/>
+                    </li>
+                    <li><strong class="step">Step 4:</strong>
+                      Well, Now your are ready to use App by click the created detail button. you can draw and save your drawing as an attachment for your object. 
+                      <apex:image value="{!URLFOR($Resource.CC_Sketch__methodDrawJs,'docImages/44.PNG')}"/>
+                      </li>
+                      <li><strong class="step">Draw Your Attachment Page</strong>
+                      Here you can draw your attachment.
+                      <apex:image value="{!URLFOR($Resource.CC_Sketch__methodDrawJs,'docImages/55.PNG')}"/>
+                      </li>
+                    
+                    
+                
+                </ul>
+                </div>
+        </apex:outputPanel>
+        
+        <apex:outputPanel layout="block" id="outerwrapper" styleClass="outerwrapper" rendered="{!currenPageId!=null}">
+            <div class="Btn">
+                <apex:form >   
+                    <apex:pageBlock >
+                        <input type="hidden" id="image" name="attImage" value=""/>
+                        <apex:actionFunction name="saveAttachment" action="{!saveAttachment}"  />
+                        <input type="text" id="name" placeholder="Attachment Name" name="name" /> 
+                        <button onClick="saveImage(); return false" id="savbtn">Save</button>
+                        <a class="cancelBtn" href="/{!currenPageId}" >Cancel</a>  
+                    </apex:pageBlock>
+                </apex:form>
+            </div>  
+            <div id="preview"></div>
+            <iframe src="{!URLFOR($Resource.methodDrawJs,'index.html')}" width="100%" height="90%" id="svgedit" onload="init_embed()"></iframe>    
+        </apex:outputPanel>
+        </body>
+    </html>
+</apex:page>
