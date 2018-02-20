@@ -1,22 +1,14 @@
-﻿<?xml version="1.0" encoding="utf-8"?><Profile xmlns="http://soap.sforce.com/2006/04/metadata"><custom>false</custom><userLicense>Salesforce</userLicense><pageAccesses>
-        <apexPage>agf__ADM_InvestigationEdit</apexPage>
-        <enabled>true</enabled>
-    </pageAccesses><classAccesses>
+<?xml version="1.0" encoding="utf-8"?><Profile xmlns="http://soap.sforce.com/2006/04/metadata"><custom>false</custom><userLicense>Salesforce</userLicense><classAccesses>
         <apexClass>CC_Sketch__DrawVFController</apexClass>
         <enabled>true</enabled>
-	</classAccesses>
-	<classAccesses>
+	</classAccesses><classAccesses>
         <apexClass>agf__ADM_AddWorkToSprintController</apexClass>
         <enabled>true</enabled>
-	</classAccesses>
-	<classAccesses>
+    </classAccesses><classAccesses>
         <apexClass>WarehouseDataInstall</apexClass>
         <enabled>true</enabled>
     </classAccesses><classAccesses>
         <apexClass>agf__ADM_AddWorkToPrioritizerExtension</apexClass>
-        <enabled>true</enabled>
-    </classAccesses><classAccesses>
-        <apexClass>agf__ADM_AddWorkToSprintController</apexClass>
         <enabled>true</enabled>
     </classAccesses><classAccesses>
         <apexClass>agf__ADM_AdditionalFieldsController</apexClass>
@@ -1378,6 +1370,9 @@
         <apexClass>infografx__UsaMapChartControllerTest</apexClass>
         <enabled>true</enabled>
     </classAccesses><pageAccesses>
+        <apexPage>agf__ADM_InvestigationEdit</apexPage>
+        <enabled>true</enabled>
+    </pageAccesses><pageAccesses>
         <apexPage>CC_Sketch__DrawVF</apexPage>
         <enabled>true</enabled>
     </pageAccesses><pageAccesses>
@@ -1446,8 +1441,7 @@
     </pageAccesses><pageAccesses>
         <apexPage>agf__ADM_InvestigationDetailSds</apexPage>
         <enabled>true</enabled>
-    </pageAccesses>
-<pageAccesses>
+    </pageAccesses><pageAccesses>
         <apexPage>agf__ADM_InvestigationEditSds</apexPage>
         <enabled>true</enabled>
     </pageAccesses><pageAccesses>
