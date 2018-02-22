@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?><Profile xmlns="http://soap.sforce.com/2006/04/metadata"><custom>false</custom><userLicense>Chatter Free</userLicense><applicationVisibilities>
+<?xml version="1.0" encoding="utf-8"?><Profile xmlns="http://soap.sforce.com/2006/04/metadata"><custom>false</custom><userLicense>Chatter Free</userLicense><applicationVisibilities>
         <application>Armor_Decor_Console</application>
         <default>false</default>
         <visible>false</visible>
@@ -2735,4 +2735,10 @@
     </userPermissions><userPermissions>
         <enabled>true</enabled>
         <name>ViewHelpLink</name>
+    </userPermissions><userPermissions>
+        <enabled>true</enabled>
+        <name>AddDirectMessageMembers</name>
+    </userPermissions><userPermissions>
+        <enabled>true</enabled>
+        <name>RemoveDirectMessageMembers</name>
     </userPermissions></Profile>
